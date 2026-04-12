@@ -1,0 +1,80 @@
+# Technical Specification: Sherpur Industrial Park React UI
+
+## 1. Project Overview
+A high-performance, conversion-focused marketplace for industrial land and sheds, built with React and Tailwind CSS.
+
+## 2. Tech Stack
+- **Framework:** React 18+
+- **Styling:** Tailwind CSS (Utility-first)
+- **Icons:** Lucide React (for industrial/precision icons)
+- **Typography:** Manrope (Primary for headers), Inter (Secondary for body)
+- **Animation:** Framer Motion (for smooth transitions)
+
+## 3. Design System Implementation (Tailwind Configuration)
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        industrial: {
+          navy: '#002046',    // Primary Brand Color
+          orange: '#FF7627',  // Primary Accent/CTA
+          steel: '#53606E',   // Secondary Text
+          ghost: '#F8F9FA',   // Background Light
+          slate: '#EDEEEF',   // Section Backgrounds
+        }
+      },
+      fontFamily: {
+        sans: ['Manrope', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+      },
+      borderRadius: {
+        'industrial': '4px', // From DESIGN_SYSTEM_1
+      }
+    }
+  }
+}
+```
+
+## 4. Shared Components
+- **TopNavBar:** Sticky navigation with "Enquire Now" CTA.
+- **Footer:** 4-column layout with legal links and contact info.
+- **SectionHeader:** Standardized title and subtitle component.
+- **PropertyCard:** Reusable component for the marketplace and featured sections.
+- **ContactForm:** Lead capture component with validation.
+
+## 5. Screen Breakdown & Components
+
+### 1. Homepage (`/`)
+- **Hero:** Aerial video/image background with centered overlay.
+- **StatsBar:** Quick-glance industrial metrics (500 Acres, Secured, etc.).
+- **StrategicAssets:** Filterable preview of top listings.
+- **MapPreview:** High-contrast dark map visual.
+
+### 2. Properties List (`/properties`)
+- **SidebarFilter:** Checkbox and range slider for land/shed and budget.
+- **ResultsGrid:** Responsive grid for `PropertyCard` components.
+- **Pagination:** Clean, numbered navigation for large inventories.
+
+### 3. Property Details (`/properties/:id`)
+- **Gallery:** Large-format industrial photography viewer.
+- **SpecsGrid:** Icon-based grid for power capacity, road width, and drainage.
+- **LocationMap:** Integrated map centered on the specific plot.
+- **LeadSticky:** Floating/Sticky sidebar with consultant contact and inquiry form.
+
+### 4. About & Infrastructure (`/about`)
+- **VisionSection:** Minimalist text/image layout highlighting the 500-acre scale.
+- **InfrastructureGrid:** Technical cards for Water, Electricity, and Security.
+
+### 5. Success Stories (`/stories`)
+- **CaseStudyCards:** Large vertical cards with metrics (Jobs created, Production increase).
+- **TestimonialCarousel:** Social proof from industrial leaders.
+
+### 6. Location Advantage (`/location`)
+- **InteractiveMap:** High-detail map with route highlights.
+- **DistanceTable:** Clean data table showing travel times and route quality.
+
+## 6. Global UX Features
+- **Mobile First:** All grids collapse to single columns; sticky bottom CTAs for Call/WhatsApp.
+- **Performance:** Image lazy loading for high-res industrial drone shots.
+- **Transitions:** Fade-in-up animations for sections as they enter the viewport.

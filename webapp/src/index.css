@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface font-body text-on-surface;
+    margin: 0;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    line-height: 1;
+  }
+  .blueprint-grid {
+    background-image: linear-gradient(rgba(196, 198, 207, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(196, 198, 207, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
