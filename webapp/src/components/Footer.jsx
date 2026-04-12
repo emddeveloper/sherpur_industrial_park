@@ -10,7 +10,7 @@ export default function Footer() {
                     SHERPUR INDUSTRIAL PARK
                 </div>
 <p className="font-['Inter'] text-xs font-medium tracking-widest uppercase text-[#53606e] dark:text-slate-400 leading-relaxed">
-                    © 2024 SHERPUR INDUSTRIAL PARK. PRECISION ENGINEERED INFRASTRUCTURE.
+                    © 2026 SHERPUR INDUSTRIAL PARK. PRECISION ENGINEERED INFRASTRUCTURE.
                 </p>
 </div>
 <div className="flex flex-wrap gap-x-12 gap-y-6">

@@ -8,30 +8,29 @@ export default function Location() {
 
 
 
-<section className="relative h-[819px] flex items-center overflow-hidden bg-primary">
-<div className="absolute inset-0 opacity-40">
+<section className="relative h-[819px] flex items-center overflow-hidden bg-[#002046]">
+<div className="absolute inset-0 z-0 opacity-40">
 <img className="w-full h-full object-cover" data-alt="high-altitude satellite view of a modern industrial zone infrastructure grid with glowing transit lines at twilight" src="/hero1.png" />
 </div>
-<div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent"></div>
+<div className="absolute inset-0 bg-gradient-to-r from-[#002046] via-[#002046]/60 to-transparent"></div>
 <div className="relative z-10 max-w-[1440px] mx-auto px-8 w-full">
-<div className="max-w-2xl">
-<span className="inline-block py-1 px-3 bg-on-tertiary-container text-white font-headline font-bold text-xs tracking-[0.2em] uppercase mb-6">
-                    Connectivity Hub
+<div className="max-w-3xl">
+<span className="inline-block py-2 px-5 bg-white/5 backdrop-blur-md border border-white/10 text-white font-headline font-black text-[10px] tracking-[0.3em] uppercase mb-10 rounded-full tracking-tighter">
+                    Epicenter of Industry
                 </span>
-<h1 className="font-headline text-5xl md:text-7xl font-extrabold text-white leading-tight mb-8 tracking-tighter">
-                    Epicenter of <br/><span className="text-on-primary-container">Industry</span>
+<h1 className="font-headline text-5xl md:text-8xl font-extrabold text-white leading-[0.9] mb-12 tracking-tighter italic uppercase">
+                    Connectivity <br/><span className="text-[#ff7627]">Gateway</span>
 </h1>
-<p className="text-lg text-on-primary-container font-body max-w-xl leading-relaxed mb-10">
-                    Strategically positioned at the confluence of major national logistics arteries, Sherpur Industrial Park offers unmatched multimodal connectivity to regional and global markets.
+<p className="text-xl text-slate-300 font-body max-w-xl leading-relaxed mb-12">
+                    Strategically positioned at the confluence of NH-16 and major logistics arteries, Sherpur Industrial Park offers unmatched multimodal connectivity to global markets.
                 </p>
-<div className="flex gap-4">
-<button className="bg-on-tertiary-container text-white px-8 py-4 rounded-lg font-headline font-bold uppercase tracking-wide hover:-translate-y-1 transition-all">
-                        View Connectivity Map
+<div className="flex gap-6">
+<button className="bg-[#ff7627] text-white px-10 py-5 rounded-2xl font-headline font-black uppercase tracking-widest text-sm hover:scale-105 shadow-2xl shadow-[#ff7627]/30 transition-all">
+                        Masterplan Access
                     </button>
 </div>
 </div>
 </div>
-<div className="blueprint-grid absolute inset-0 pointer-events-none"></div>
 </section>
 
 <section className="py-24 bg-surface relative overflow-hidden">
@@ -44,18 +43,18 @@ export default function Location() {
                         Sherpur is more than a location; it's a structural advantage. Our infrastructure provides direct access to the nation's primary industrial corridors, ensuring your supply chain remains resilient and rapid.
                     </p>
 <div className="space-y-6">
-<div className="flex gap-4 items-start p-4 bg-surface-container-low rounded-xl border-l-4 border-on-tertiary-container">
-<span className="material-symbols-outlined text-primary text-3xl">road</span>
+<div className="flex gap-6 items-start p-8 bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 group hover:border-[#ff7627]/40 transition-all shadow-lg">
+<span className="material-symbols-outlined text-[#ff7627] text-3xl group-hover:scale-110 transition-transform">road</span>
 <div>
-<h4 className="font-headline font-bold text-primary uppercase text-sm tracking-wider">NH-16 Access</h4>
-<p className="text-secondary text-sm">Direct private interchange connecting to the National Highway-16 at Ranihati within 6km.</p>
+<h4 className="font-headline font-black text-primary uppercase text-xs tracking-widest mb-2">NH-16 Access</h4>
+<p className="text-secondary text-sm font-medium">Direct private interchange connecting to the National Highway-16 at Ranihati within 6km.</p>
 </div>
 </div>
-<div className="flex gap-4 items-start p-4 bg-surface-container-low rounded-xl">
-<span className="material-symbols-outlined text-primary text-3xl">train</span>
+<div className="flex gap-6 items-start p-8 bg-white/5 backdrop-blur-xl rounded-2xl border border-white/5 hover:border-[#ff7627]/40 transition-all">
+<span className="material-symbols-outlined text-[#ff7627] text-3xl group-hover:scale-110 transition-transform">train</span>
 <div>
-<h4 className="font-headline font-bold text-primary uppercase text-sm tracking-wider">Rail Siding Hub</h4>
-<p className="text-secondary text-sm">Dedicated rail spur within the park connected to the Sherpur Junction Rail Hub.</p>
+<h4 className="font-headline font-black text-primary uppercase text-xs tracking-widest mb-2">Rail Siding Hub</h4>
+<p className="text-secondary text-sm font-medium">Dedicated rail spur within the park connected to the Sherpur Junction Rail Hub.</p>
 </div>
 </div>
 </div>
@@ -148,50 +147,50 @@ export default function Location() {
 </div>
 <div className="bg-primary text-white px-6 py-3 rounded-lg flex items-center gap-3">
 <span className="material-symbols-outlined" data-weight="fill">verified</span>
-<span className="font-headline font-bold text-xs uppercase tracking-widest">Audited Connectivity Data 2024</span>
+<span className="font-headline font-bold text-xs uppercase tracking-widest">Audited Connectivity Data 2026</span>
 </div>
 </div>
-<div className="overflow-x-auto">
+<div className="overflow-hidden rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-3xl shadow-2xl shadow-[#002046]/20">
 <table className="w-full text-left border-collapse">
 <thead>
-<tr className="border-b-2 border-primary/10">
-<th className="py-6 px-4 font-headline font-bold text-primary uppercase text-sm tracking-widest">Destination Node</th>
-<th className="py-6 px-4 font-headline font-bold text-primary uppercase text-sm tracking-widest text-center">Distance (KM)</th>
-<th className="py-6 px-4 font-headline font-bold text-primary uppercase text-sm tracking-widest text-center">Travel Time (Min)</th>
-<th className="py-6 px-4 font-headline font-bold text-primary uppercase text-sm tracking-widest text-right">Route Quality</th>
+<tr className="border-b border-outline-variant/30">
+<th className="py-8 px-8 font-headline font-black text-primary uppercase text-[10px] tracking-[0.3em]">Destination Node</th>
+<th className="py-8 px-8 font-headline font-black text-primary uppercase text-[10px] tracking-[0.3em] text-center">Distance</th>
+<th className="py-8 px-8 font-headline font-black text-primary uppercase text-[10px] tracking-[0.3em] text-center">Travel Time</th>
+<th className="py-8 px-8 font-headline font-black text-primary uppercase text-[10px] tracking-[0.3em] text-right">Route Quality</th>
 </tr>
 </thead>
 <tbody className="font-body text-on-surface">
-<tr className="bg-surface hover:bg-surface-container-low transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Ranihati Crossing (NH-16)</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">06 KM</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">12 min</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Transit Node</span>
+<tr className="bg-transparent hover:bg-[#ff7627]/5 transition-colors group">
+<td className="py-8 px-8 border-b border-outline-variant/10 font-black text-primary text-sm uppercase tracking-tight italic group-hover:text-[#ff7627] transition-colors">Ranihati Crossing (NH-16)</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center font-black text-secondary text-xs">06 KM</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center text-[#ff7627] font-black text-xs">12 MIN</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-right">
+<span className="bg-white/10 text-primary px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest border border-white/10 group-hover:border-[#ff7627]/30 transition-all">Transit Node</span>
 </td>
 </tr>
-<tr className="bg-surface-container-low hover:bg-surface-container transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Kolkata Port Terminal</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">35 KM</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">55 min</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Gateway</span>
+<tr className="bg-transparent hover:bg-[#ff7627]/5 transition-colors group">
+<td className="py-8 px-8 border-b border-outline-variant/10 font-black text-primary text-sm uppercase tracking-tight italic group-hover:text-[#ff7627] transition-colors">Kolkata Port Terminal</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center font-black text-secondary text-xs">35 KM</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center text-[#ff7627] font-black text-xs">55 MIN</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-right">
+<span className="bg-white/10 text-primary px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest border border-white/10 group-hover:border-[#ff7627]/30 transition-all">Gateway</span>
 </td>
 </tr>
-<tr className="bg-surface hover:bg-surface-container-low transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Haldia Deep Sea Port</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">90 KM</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">140 min</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">International Shipping</span>
+<tr className="bg-transparent hover:bg-[#ff7627]/5 transition-colors group">
+<td className="py-8 px-8 border-b border-outline-variant/10 font-black text-primary text-sm uppercase tracking-tight italic group-hover:text-[#ff7627] transition-colors">Haldia Deep Sea Port</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center font-black text-secondary text-xs">90 KM</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center text-[#ff7627] font-black text-xs">140 MIN</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-right">
+<span className="bg-white/10 text-primary px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest border border-white/10 group-hover:border-[#ff7627]/30 transition-all">Vessel Transit</span>
 </td>
 </tr>
-<tr className="bg-surface-container-low hover:bg-surface-container transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Kharagpur Logistics Hub</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">95 KM</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">120 min</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Manufacturing Hub</span>
+<tr className="bg-transparent hover:bg-[#ff7627]/5 transition-colors group">
+<td className="py-8 px-8 border-b border-outline-variant/10 font-black text-primary text-sm uppercase tracking-tight italic group-hover:text-[#ff7627] transition-colors">Kharagpur Logistics Hub</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center font-black text-secondary text-xs">95 KM</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-center text-[#ff7627] font-black text-xs">120 MIN</td>
+<td className="py-8 px-8 border-b border-outline-variant/10 text-right">
+<span className="bg-white/10 text-primary px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest border border-white/10 group-hover:border-[#ff7627]/30 transition-all">Manufacturing Hub</span>
 </td>
 </tr>
 </tbody>
@@ -211,9 +210,9 @@ export default function Location() {
 <button className="bg-on-tertiary-container text-white px-10 py-5 rounded-lg font-headline font-bold uppercase tracking-wide hover:-translate-y-1 transition-all shadow-xl">
                     Explore the Masterplan
                 </button>
-<button className="bg-transparent border border-white/20 text-white px-10 py-5 rounded-lg font-headline font-bold uppercase tracking-wide hover:bg-white/10 transition-all">
+<a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20enquiring%20about%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="bg-transparent border border-white/20 text-white px-10 py-5 rounded-lg font-headline font-bold uppercase tracking-wide hover:bg-white/10 transition-all text-center">
                     Enquire Now
-                </button>
+                </a>
 </div>
 </div>
 </section>

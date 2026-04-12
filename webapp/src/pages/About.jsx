@@ -6,21 +6,19 @@ export default function About() {
         <main>
             
 
-<section className="relative min-height-[716px] flex items-center overflow-hidden bg-primary overflow-hidden">
-<div className="absolute inset-0 opacity-40">
+<section className="relative min-h-[500px] md:min-h-[716px] flex items-center overflow-hidden bg-[#002046]">
+<div className="absolute inset-0 z-0 opacity-40">
 <img className="w-full h-full object-cover" data-alt="Cinematic wide shot of a modern industrial warehouse complex at dusk with architectural lighting and cool steel tones" src="/hero2.jpg" />
 </div>
-<div className="absolute inset-0 bg-gradient-to-tr from-primary via-primary/80 to-transparent"></div>
-<div className="relative z-10 max-w-[1440px] mx-auto px-8 py-32 w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
-<div className="lg:col-span-8">
-<span className="inline-block px-4 py-1 bg-on-tertiary-container text-white text-xs font-bold tracking-widest uppercase mb-6">Established Vision</span>
-<h1 className="text-white font-headline font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tighter leading-[0.9] mb-8">
+<div className="absolute inset-0 bg-gradient-to-r from-[#002046] via-[#002046]/60 to-transparent"></div>
+<div className="relative z-10 max-w-[1440px] mx-auto px-8 w-full">
+<div className="max-w-4xl">
+<span className="inline-block px-5 py-2 bg-white/5 backdrop-blur-md border border-white/10 text-white text-[10px] font-black tracking-[0.3em] uppercase mb-8 rounded-full">Engineering Excellence</span>
+<h1 className="text-white font-headline font-extrabold text-5xl md:text-8xl tracking-tighter leading-[0.9] mb-12 italic uppercase">
                         300 ACRES OF <br/>
-<span className="text-on-primary-container">ENGINEERED FUTURE.</span>
+<span className="text-[#ff7627]">ENGINEERED FUTURE.</span>
 </h1>
-</div>
-<div className="lg:col-span-4 pb-4">
-<p className="text-on-primary-container font-body text-lg leading-relaxed max-w-sm">
+<p className="text-slate-300 font-body text-xl leading-relaxed max-w-xl">
                         Sherpur Industrial Park is a master-planned ecosystem designed for global scale, precision manufacturing, and seamless logistics connectivity.
                     </p>
 </div>
@@ -62,37 +60,40 @@ export default function About() {
 <div className="w-24 h-1 bg-on-tertiary-container mt-4 mb-6"></div>
 <p className="text-secondary max-w-2xl font-body text-lg">World-class utilities and support systems engineered for 99.9% uptime and heavy-duty industrial requirements.</p>
 </div>
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
-
-<div className="bg-surface-container-lowest p-10 hover:bg-primary group transition-colors duration-500">
-<span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6 block group-hover:text-white transition-colors" data-icon="alt_route">alt_route</span>
-<h3 className="font-headline font-bold text-xl text-primary mb-4 group-hover:text-white">Roads</h3>
-<p className="text-secondary font-body text-sm leading-relaxed group-hover:text-on-primary-container">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-white/5 hover:border-[#ff7627]/40 hover:bg-white/10 transition-all group relative overflow-hidden">
+<div className="absolute -bottom-10 -right-10 w-32 h-32 bg-[#ff7627]/5 blur-3xl group-hover:bg-[#ff7627]/10 transition-all"></div>
+<span className="material-symbols-outlined text-[#ff7627] text-4xl mb-8 block group-hover:scale-110 transition-transform">alt_route</span>
+<h3 className="font-headline font-black text-xl text-primary mb-4 uppercase tracking-tight italic">Roads</h3>
+<p className="text-secondary font-medium text-sm leading-relaxed">
                             50ft wide primary main entrance and 45ft wide internal arterial roads designed for peak multi-axle freight movement.
                         </p>
 </div>
 
-<div className="bg-surface-container-lowest p-10 hover:bg-primary group transition-colors duration-500">
-<span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6 block group-hover:text-white transition-colors" data-icon="bolt">bolt</span>
-<h3 className="font-headline font-bold text-xl text-primary mb-4 group-hover:text-white">Electricity</h3>
-<p className="text-secondary font-body text-sm leading-relaxed group-hover:text-on-primary-container">
+<div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-white/5 hover:border-[#ff7627]/40 hover:bg-white/10 transition-all group relative overflow-hidden">
+<div className="absolute -bottom-10 -right-10 w-32 h-32 bg-[#ff7627]/5 blur-3xl group-hover:bg-[#ff7627]/10 transition-all"></div>
+<span className="material-symbols-outlined text-[#ff7627] text-4xl mb-8 block group-hover:scale-110 transition-transform">bolt</span>
+<h3 className="font-headline font-black text-xl text-primary mb-4 uppercase tracking-tight italic">Electricity</h3>
+<p className="text-secondary font-medium text-sm leading-relaxed">
                             Dedicated 33/11 KV internal substation grid with 24/7 power monitoring ensuring uninterrupted industrial cycles.
                         </p>
 </div>
 
-<div className="bg-surface-container-lowest p-10 hover:bg-primary group transition-colors duration-500">
-<span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6 block group-hover:text-white transition-colors" data-icon="water_drop">water_drop</span>
-<h3 className="font-headline font-bold text-xl text-primary mb-4 group-hover:text-white">Water</h3>
-<p className="text-secondary font-body text-sm leading-relaxed group-hover:text-on-primary-container">
-                            Centralized water treatment and high-pressure supply network with a capacity of 10 MLD specifically for industrial consumption.
+<div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-white/5 hover:border-[#ff7627]/40 hover:bg-white/10 transition-all group relative overflow-hidden">
+<div className="absolute -bottom-10 -right-10 w-32 h-32 bg-[#ff7627]/5 blur-3xl group-hover:bg-[#ff7627]/10 transition-all"></div>
+<span className="material-symbols-outlined text-[#ff7627] text-4xl mb-8 block group-hover:scale-110 transition-transform">water_drop</span>
+<h3 className="font-headline font-black text-xl text-primary mb-4 uppercase tracking-tight italic">Water</h3>
+<p className="text-secondary font-medium text-sm leading-relaxed">
+                            Centralized water treatment and high-pressure supply network specifically for industrial utility consumption.
                         </p>
 </div>
 
-<div className="bg-surface-container-lowest p-10 hover:bg-primary group transition-colors duration-500">
-<span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6 block group-hover:text-white transition-colors" data-icon="shield_with_heart">shield_with_heart</span>
-<h3 className="font-headline font-bold text-xl text-primary mb-4 group-hover:text-white">Security</h3>
-<p className="text-secondary font-body text-sm leading-relaxed group-hover:text-on-primary-container" data-weight="fill">
-                            Integrated command center with 24/7 AI-monitored surveillance, drone patrols, and strictly controlled access gates.
+<div className="bg-white/5 backdrop-blur-xl p-10 rounded-3xl border border-white/5 hover:border-[#ff7627]/40 hover:bg-white/10 transition-all group relative overflow-hidden">
+<div className="absolute -bottom-10 -right-10 w-32 h-32 bg-[#ff7627]/5 blur-3xl group-hover:bg-[#ff7627]/10 transition-all"></div>
+<span className="material-symbols-outlined text-[#ff7627] text-4xl mb-8 block group-hover:scale-110 transition-transform">verified_user</span>
+<h3 className="font-headline font-black text-xl text-primary mb-4 uppercase tracking-tight italic">Security</h3>
+<p className="text-secondary font-medium text-sm leading-relaxed">
+                            Integrated command center with 24/7 AI-monitored surveillance and strictly controlled access gates.
                         </p>
 </div>
 </div>

@@ -174,74 +174,62 @@ export default function Properties() {
 
     return (
         <main>
-            <section className="mb-16 relative overflow-hidden bg-primary-container rounded-xl p-12 lg:p-20 flex flex-col md:flex-row items-center gap-12">
-                <div className="relative z-10 w-full md:w-1/2">
-                    <span className="inline-block py-1 px-3 bg-on-tertiary-container/10 text-on-tertiary-container font-label text-xs font-bold uppercase tracking-widest mb-6">Industrial Portfolio</span>
-                    <h1 className="text-white text-5xl lg:text-7xl font-headline font-extrabold tracking-tight mb-6 leading-tight">
-                        Browse Industrial <br/><span className="text-on-primary-container">Opportunities</span>
+            <section className="relative min-h-[400px] md:h-[500px] flex items-center overflow-hidden bg-[#002046] rounded-[48px] mb-20">
+<div className="absolute inset-0 z-0 opacity-40">
+<img className="w-full h-full object-cover" data-alt="Modern high-tech industrial park facility" src="/hero2.jpg" />
+</div>
+<div className="absolute inset-0 bg-gradient-to-r from-[#002046] via-[#002046]/60 to-transparent"></div>
+<div className="relative z-10 max-w-[1440px] mx-auto px-12 w-full">
+<div className="max-w-3xl">
+<span className="inline-block py-2 px-5 bg-white/5 backdrop-blur-md border border-white/10 text-white font-headline font-black text-[10px] tracking-[0.3em] uppercase mb-10 rounded-full">Inventory 2026</span>
+<h1 className="text-white text-5xl md:text-8xl font-headline font-black tracking-tighter mb-8 leading-[0.9] italic uppercase">
+                        Industrial <br/><span className="text-[#ff7627]">Portfolio</span>
                     </h1>
-                    <p className="text-on-primary-container text-lg max-w-md font-body leading-relaxed">
-                        Precision-engineered plots and industrial sheds designed for large-scale manufacturing and global logistics hubs.
+<p className="text-slate-300 text-xl font-body max-w-xl leading-relaxed">
+                        Explore our audited inventory of 300 acres, featuring ready-to-build plots and Grade-A industrial sheds.
                     </p>
-                </div>
-                <div className="w-full md:w-1/2 h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl relative">
-                    <img className="w-full h-full object-cover" data-alt="Modern high-tech industrial park facility" src="/hero2.jpg" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>
-                </div>
-            </section>
+</div>
+</div>
+</section>
 
             <div className="flex flex-col lg:flex-row gap-12">
-                <aside className="w-full lg:w-72 shrink-0">
-                    <div className="bg-surface-container rounded-xl p-8 sticky top-32">
-                        <div className="flex items-center gap-2 mb-8">
-                            <span className="material-symbols-outlined text-primary" data-icon="filter_list">filter_list</span>
-                            <h2 className="font-headline font-bold text-lg text-primary uppercase tracking-tight">Refine Search</h2>
-                        </div>
-                        <div className="space-y-8">
-                            <div>
-                                <label className="block font-label text-xs font-bold text-secondary uppercase tracking-widest mb-4">Transaction Type</label>
-                                <div className="grid grid-cols-2 gap-2">
-                                    <button className="py-2 px-4 text-xs font-bold border-2 border-primary bg-primary text-white rounded-lg">Buy</button>
-                                    <button className="py-2 px-4 text-xs font-bold border-2 border-outline-variant text-secondary hover:border-primary transition-colors rounded-lg">Rent</button>
-                                </div>
-                            </div>
-                            <div>
-                                <label className="block font-label text-xs font-bold text-secondary uppercase tracking-widest mb-4">Property Type</label>
-                                <div className="space-y-2">
-                                    <label className="flex items-center gap-3 cursor-pointer group">
-                                        <input className="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary" type="checkbox" />
-                                        <span className="font-body text-sm text-on-surface group-hover:text-primary transition-colors">Industrial Shed</span>
-                                    </label>
-                                    <label className="flex items-center gap-3 cursor-pointer group">
-                                        <input className="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary" type="checkbox" />
-                                        <span className="font-body text-sm text-on-surface group-hover:text-primary transition-colors">Open Land</span>
-                                    </label>
-                                </div>
-                            </div>
-                            <div>
-                                <label className="block font-label text-xs font-bold text-secondary uppercase tracking-widest mb-4">Size Range</label>
-                                <select className="w-full bg-surface border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 text-sm font-body py-2">
-                                    <option>All Sizes</option>
-                                    <option>10,000 - 50,000 sq ft</option>
-                                    <option>50,000 - 100,000 sq ft</option>
-                                    <option>2 - 5 Acres</option>
-                                    <option>5+ Acres</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label className="block font-label text-xs font-bold text-secondary uppercase tracking-widest mb-4">Budget Range</label>
-                                <div className="flex items-center gap-2">
-                                    <input className="w-full bg-surface border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 text-sm font-body py-2" placeholder="Min" type="text" />
-                                    <span className="text-outline">—</span>
-                                    <input className="w-full bg-surface border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 text-sm font-body py-2" placeholder="Max" type="text" />
-                                </div>
-                            </div>
-                            <button className="w-full bg-primary text-white py-4 rounded-lg font-headline font-bold text-xs uppercase tracking-[0.2em] mt-4 hover:shadow-xl transition-all">
-                                Apply Filters
+                <aside className="w-full lg:w-80 shrink-0">
+<div className="bg-white/5 backdrop-blur-3xl rounded-[32px] p-10 sticky top-32 border border-white/10 shadow-2xl shadow-[#002046]/20">
+<div className="flex items-center gap-4 mb-10">
+<span className="material-symbols-outlined text-[#ff7627]" data-icon="filter_list">filter_list</span>
+<h2 className="font-headline font-black text-xs text-primary uppercase tracking-[0.2em] italic">Refine Assets</h2>
+</div>
+<div className="space-y-10">
+<div>
+<label className="block font-headline font-black text-[10px] text-secondary uppercase tracking-[0.2em] mb-5">Asset Class</label>
+<div className="grid grid-cols-2 gap-3">
+<button className="py-3 px-4 text-[10px] font-black uppercase tracking-widest bg-[#ff7627] text-white rounded-xl shadow-lg shadow-[#ff7627]/20">Build</button>
+<button className="py-3 px-4 text-[10px] font-black uppercase tracking-widest border border-white/10 bg-white/5 text-secondary rounded-xl hover:border-[#ff7627]/40 transition-all">Lease</button>
+</div>
+</div>
+<div>
+<label className="block font-headline font-black text-[10px] text-secondary uppercase tracking-[0.2em] mb-5">Facility Type</label>
+<div className="space-y-3">
+<label className="flex items-center gap-4 cursor-pointer group">
+<div className="w-5 h-5 rounded border-2 border-white/10 bg-white/5 group-hover:border-[#ff7627] transition-all flex items-center justify-center">
+<div className="w-2 h-2 rounded-full bg-[#ff7627] opacity-0 group-hover:opacity-100"></div>
+</div>
+<span className="font-black text-[10px] uppercase tracking-widest text-primary group-hover:text-[#ff7627] transition-colors">Industrial Shed</span>
+</label>
+<label className="flex items-center gap-4 cursor-pointer group">
+<div className="w-5 h-5 rounded border-2 border-white/10 bg-white/5 group-hover:border-[#ff7627] transition-all flex items-center justify-center">
+<div className="w-2 h-2 rounded-full bg-[#ff7627] opacity-0 group-hover:opacity-100"></div>
+</div>
+<span className="font-black text-[10px] uppercase tracking-widest text-primary group-hover:text-[#ff7627] transition-colors">Open Plot</span>
+</label>
+</div>
+</div>
+<button className="w-full bg-white/10 backdrop-blur-xl text-primary py-5 rounded-2xl font-headline font-black text-[10px] uppercase tracking-[0.3em] mt-6 border border-white/10 hover:bg-[#ff7627] hover:text-white hover:border-[#ff7627] transition-all">
+                                Refresh Audit
                             </button>
-                        </div>
-                    </div>
-                </aside>
+</div>
+</div>
+</aside>
 
                 <div className="flex-1">
                     <div className="flex justify-between items-center mb-10">
@@ -252,52 +240,52 @@ export default function Properties() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        {currentProperties.map((property) => (
-                            <div key={property.id} className="group bg-surface-container-lowest rounded-xl overflow-hidden hover:shadow-[0px_20px_40px_rgba(25,28,29,0.06)] transition-all duration-500 border border-transparent hover:border-outline-variant/10">
-                                <div className="relative aspect-[4/3] overflow-hidden">
-                                    <img className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ${property.status === 'Sold' ? 'opacity-80' : ''}`} src={property.image} alt={property.title} />
-                                    {property.status === 'Sold' && <div className="absolute inset-0 bg-primary/20 backdrop-grayscale"></div>}
-                                    <div className="absolute top-4 left-4">
-                                        <span className={`text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full ${property.status === 'Available' ? 'bg-primary text-white' : 'bg-secondary text-white'}`}>
-                                            {property.status}
-                                        </span>
-                                    </div>
-                                </div>
-                                <div className="p-8">
-                                    <div className="flex justify-between items-start mb-4">
-                                        <div>
-                                            <h3 className="font-headline font-extrabold text-xl text-primary leading-tight mb-1">{property.title}</h3>
-                                            <p className="font-body text-sm text-secondary">{property.location}</p>
-                                        </div>
-                                        <div className="text-right">
-                                            <p className="font-label text-xs font-bold text-on-tertiary-container uppercase tracking-widest">{property.status === 'Sold' ? 'Closed at' : 'Pricing'}</p>
-                                            <p className={`font-headline font-bold text-lg ${property.status === 'Available' ? 'text-primary' : 'text-secondary'}`}>₹{property.price}</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-center gap-6 mb-8 py-4 border-y border-outline-variant/10">
-                                        <div className="flex items-center gap-2">
-                                            <span className="material-symbols-outlined text-secondary text-lg">{property.icon1}</span>
-                                            <span className="font-body text-sm font-semibold">{property.size}</span>
-                                        </div>
-                                        <div className="flex items-center gap-2">
-                                            <span className="material-symbols-outlined text-secondary text-lg">{property.icon2}</span>
-                                            <span className="font-body text-sm font-semibold">{property.details}</span>
-                                        </div>
-                                    </div>
-                                    {property.status === 'Available' ? (
-                                        <Link to={`/properties/${property.id}`} className="block w-full text-center py-4 border-2 border-outline-variant/20 hover:border-primary hover:bg-primary hover:text-white text-primary font-headline font-bold text-xs uppercase tracking-widest transition-all duration-300 rounded-lg">
-                                            View Details
-                                        </Link>
-                                    ) : (
-                                        <button className="w-full py-4 bg-surface-container text-secondary font-headline font-bold text-xs uppercase tracking-widest rounded-lg cursor-not-allowed" disabled>
-                                            Property Unavailable
-                                        </button>
-                                    )}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+{currentProperties.map((property) => (
+<div key={property.id} className="group bg-white/5 backdrop-blur-xl rounded-[40px] overflow-hidden hover:shadow-2xl hover:shadow-[#002046]/20 transition-all duration-700 border border-white/10 hover:border-[#ff7627]/40 relative overflow-hidden">
+<div className="absolute -top-24 -right-24 w-64 h-64 bg-[#ff7627]/5 blur-[80px] group-hover:bg-[#ff7627]/10 transition-all"></div>
+<div className="relative aspect-[16/11] overflow-hidden">
+<img className={`w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ${property.status === 'Sold' ? 'opacity-40 grayscale' : ''}`} src={property.image} alt={property.title} />
+<div className="absolute top-6 left-6">
+<span className={`text-[10px] font-black uppercase tracking-[0.25em] px-5 py-2 rounded-full shadow-2xl ${property.status === 'Available' ? 'bg-[#ff7627] text-white' : 'bg-[#002046] text-slate-400'}`}>
+{property.status}
+</span>
+</div>
+</div>
+<div className="p-10">
+<div className="flex justify-between items-start mb-8">
+<div>
+<h3 className="font-headline font-black text-2xl text-primary leading-tight mb-2 uppercase italic tracking-tighter group-hover:text-[#ff7627] transition-colors">{property.title}</h3>
+<p className="font-body text-[10px] font-black uppercase tracking-widest text-[#002046]/40">{property.location}</p>
+</div>
+<div className="text-right">
+<p className="font-headline font-black text-xs text-secondary uppercase tracking-widest mb-1 italic">₹{property.price}</p>
+</div>
+</div>
+<div className="flex items-center gap-8 mb-10 py-6 border-y border-white/10">
+<div className="flex items-center gap-3">
+<span className="material-symbols-outlined text-[#ff7627] text-lg">{property.icon1}</span>
+<span className="font-black text-[10px] uppercase tracking-widest text-primary">{property.size}</span>
+</div>
+<div className="flex items-center gap-3">
+<span className="material-symbols-outlined text-[#ff7627] text-lg">{property.icon2}</span>
+<span className="font-black text-[10px] uppercase tracking-widest text-primary">{property.details}</span>
+</div>
+</div>
+{property.status === 'Available' ? (
+<Link to={`/properties/${property.id}`} className="flex items-center justify-between w-full py-6 border-t border-outline-variant/30 group/link">
+<span className="font-headline font-black text-[10px] uppercase tracking-[0.2em] text-primary">Technical Specs</span>
+<span className="material-symbols-outlined text-primary group-hover/link:translate-x-2 transition-transform">arrow_right_alt</span>
+</Link>
+) : (
+<div className="py-6 border-t border-white/5 opacity-40">
+<span className="font-headline font-black text-[10px] uppercase tracking-[0.2em] text-secondary">Asset Reserved</span>
+</div>
+)}
+</div>
+</div>
+))}
+</div>
 
                     {/* Pagination */}
                     <div className="mt-16 flex justify-center items-center gap-4">

@@ -6,19 +6,19 @@ export default function SuccessStories() {
         <main>
             
 
-<section className="relative h-[650px] flex items-center overflow-hidden">
-<div className="absolute inset-0 z-0">
+<section className="relative min-h-[500px] md:h-[716px] flex items-center overflow-hidden bg-[#002046]">
+<div className="absolute inset-0 z-0 opacity-40">
 <img className="w-full h-full object-cover" data-alt="wide angle shot of modern industrial park architecture with clean lines and steel structures under a clear blue sky" src="/hero1.png" />
-<div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent"></div>
 </div>
+<div className="absolute inset-0 bg-gradient-to-r from-[#002046]/90 via-[#002046]/40 to-transparent"></div>
 <div className="relative z-10 max-w-[1440px] mx-auto px-8 w-full">
-<div className="max-w-3xl">
-<span className="inline-block px-3 py-1 bg-on-tertiary-container text-white text-xs font-bold uppercase tracking-[0.2em] mb-6">Case Studies</span>
-<h1 className="text-6xl md:text-8xl font-headline font-extrabold text-white tracking-tighter leading-none mb-8">
-                        Proven Success <br/>at Sherpur
-                    </h1>
-<p className="text-xl text-on-primary-container max-w-xl font-medium leading-relaxed">
-                        Witness the growth of industry leaders who found their operational home within our world-class infrastructure.
+<div className="max-w-4xl">
+<span className="inline-block py-2 px-5 bg-white/10 backdrop-blur-xl border border-white/20 text-white font-headline font-black text-[10px] tracking-[0.3em] uppercase mb-10 rounded-full">Operational Excellence</span>
+<h1 className="text-white font-headline font-extrabold text-5xl md:text-8xl tracking-tighter leading-[0.9] mb-12 italic uppercase">
+                        Proven Success <br/><span className="text-[#ff7627]">Since 2017</span>
+</h1>
+<p className="text-xl text-slate-300 font-body max-w-xl leading-relaxed mb-12">
+                        Witness the growth of industry leaders who found their operational home within our world-class 300-acre ecosystem.
                     </p>
 </div>
 </div>
@@ -28,28 +28,28 @@ export default function SuccessStories() {
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
 
 <div className="lg:col-span-7 group">
-<div className="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-lowest">
-<img className="w-full h-[550px] object-cover group-hover:scale-105 transition-transform duration-700" data-alt="modern warehouse interior with high ceilings and organized shipping docks showcasing efficient logistics operations" src="/featureImages15.jpg" />
-<div className="absolute top-6 left-6 bg-white p-4 rounded-lg shadow-md">
-<span className="material-symbols-outlined text-primary text-4xl" data-icon="local_shipping">local_shipping</span>
+<div className="relative rounded-[40px] overflow-hidden shadow-2xl bg-[#002046]/10 border border-white/5">
+<img className="w-full h-[550px] object-cover group-hover:scale-110 transition-transform duration-700" data-alt="modern warehouse interior with high ceilings and organized shipping docks showcasing efficient logistics operations" src="/featureImages15.jpg" />
+<div className="absolute top-8 left-8 bg-white/10 backdrop-blur-xl border border-white/20 p-5 rounded-2xl shadow-2xl">
+<span className="material-symbols-outlined text-[#ff7627] text-4xl" data-icon="local_shipping">local_shipping</span>
 </div>
 </div>
-<div className="asymmetric-overlap relative z-20 bg-surface-container-lowest p-10 md:p-14 ml-auto mr-0 md:mr-12 max-w-xl shadow-2xl rounded-xl border-l-8 border-on-tertiary-container">
-<h2 className="text-4xl font-headline font-bold text-primary mb-6 tracking-tight">LogistiCorp Expansion</h2>
-<div className="grid grid-cols-2 gap-8 mb-10">
+<div className="asymmetric-overlap relative z-20 bg-white/5 backdrop-blur-3xl p-12 md:p-16 ml-auto mr-0 md:mr-12 max-w-xl shadow-2xl rounded-[32px] border border-white/10 border-l-[12px] border-l-[#ff7627]">
+<h2 className="text-4xl md:text-5xl font-headline font-black text-primary mb-8 tracking-tight uppercase italic italic tracking-tighter">LogistiCorp Expansion</h2>
+<div className="grid grid-cols-2 gap-10 mb-12">
 <div>
-<p className="text-on-tertiary-container font-extrabold text-3xl">50,000 sq ft</p>
-<p className="text-secondary text-xs uppercase tracking-widest font-bold mt-1">Facility Size</p>
+<p className="text-[#ff7627] font-black text-4xl italic tracking-tighter">50K SQ FT</p>
+<p className="text-secondary text-[10px] uppercase tracking-widest font-black mt-2">Facility Size</p>
 </div>
 <div>
-<p className="text-on-tertiary-container font-extrabold text-3xl">24/7</p>
-<p className="text-secondary text-xs uppercase tracking-widest font-bold mt-1">Operations</p>
+<p className="text-[#ff7627] font-black text-4xl italic tracking-tighter">24/7</p>
+<p className="text-secondary text-[10px] uppercase tracking-widest font-black mt-2">Operational Uptime</p>
 </div>
 </div>
-<blockquote className="border-l-4 border-outline-variant pl-6 italic text-on-surface-variant mb-8 text-lg leading-relaxed">
+<blockquote className="border-l-4 border-[#ff7627]/30 pl-8 italic text-on-surface-variant mb-10 text-xl leading-relaxed font-medium">
                             "Sherpur provided the strategic location and robust power grid we needed to scale our regional distribution by 40% in the first year."
                         </blockquote>
-<p className="font-bold text-primary text-lg">— Sarah Jenkins, CEO LogistiCorp</p>
+<p className="font-black text-primary text-lg italic uppercase tracking-widest">— Sarah Jenkins, CEO LogistiCorp</p>
 </div>
 </div>
 
@@ -117,28 +117,24 @@ export default function SuccessStories() {
 
 <section className="py-32 px-8">
 <div className="max-w-[1440px] mx-auto">
-<div className="relative bg-primary rounded-2xl p-16 md:p-24 overflow-hidden shadow-2xl">
+<div className="relative bg-[#002046] rounded-[48px] p-16 md:p-32 overflow-hidden shadow-2xl border border-white/5">
+<div className="absolute inset-0 z-0">
+  <img className="w-full h-full object-cover opacity-20" src="/hero1.png" alt="bg" />
+  <div className="absolute inset-0 bg-gradient-to-b from-[#002046] via-[#002046]/60 to-[#002046]"></div>
+</div>
 
-<div className="absolute inset-0 opacity-10 pointer-events-none">
-<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<pattern height="40" id="grid" patternunits="userSpaceOnUse" width="40">
-<path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" strokeWidth="1"></path>
-</pattern>
-</defs>
-<rect fill="url(#grid)" height="100%" width="100%"></rect>
-</svg>
+<div className="relative z-10 flex flex-col items-center text-center">
+<div className="inline-block px-5 py-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-full mb-12">
+<span className="text-white font-headline font-black text-[10px] uppercase tracking-[0.4em]">Engineered for Growth</span>
 </div>
-<div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16">
-<div className="max-w-3xl text-center lg:text-left">
-<h2 className="text-5xl md:text-6xl font-headline font-extrabold text-white mb-8 leading-tight tracking-tighter">Start Your Success Story</h2>
-<p className="text-on-primary-container text-xl leading-relaxed max-w-2xl font-medium">Join the growing ecosystem of industrial excellence. Flexible leasing options and world-class facilities are ready for your next phase of growth.</p>
-</div>
-<div className="flex flex-col sm:flex-row gap-6 w-full lg:w-auto">
-<a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="bg-on-tertiary-container text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-center">
-                                 Book a Tour
+<h2 className="text-5xl md:text-8xl font-headline font-black text-white mb-12 leading-tight tracking-tighter italic uppercase">Start Your <span className="text-[#ff7627]">Success Story</span></h2>
+<p className="text-slate-300 text-xl leading-relaxed max-w-3xl font-medium mb-16">Join the growing ecosystem of industrial excellence. Flexible leasing options and world-class BTS facilities are ready for your next phase of scale.</p>
+
+<div className="flex flex-col sm:flex-row gap-8 w-full justify-center">
+<a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="bg-[#ff7627] text-white px-12 py-6 rounded-2xl font-headline font-black text-sm uppercase tracking-widest shadow-2xl shadow-[#ff7627]/40 hover:scale-105 transition-all text-center">
+                                 Book a Site Tour
                              </a>
-<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="border-2 border-white/20 text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:bg-white/10 transition-all duration-300 inline-flex items-center gap-3">
+<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="bg-white/10 backdrop-blur-xl border border-white/20 text-white px-12 py-6 rounded-2xl font-headline font-black text-sm uppercase tracking-widest hover:bg-white/20 transition-all inline-flex items-center justify-center gap-3">
                                 Download Brochure <span className="material-symbols-outlined">download</span>
                             </a>
 </div>

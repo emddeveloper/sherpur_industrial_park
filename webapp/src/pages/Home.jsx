@@ -22,8 +22,8 @@ export default function Home() {
                         Engineered for growth. Strategic land parcels and world-class shed infrastructure designed for high-performance manufacturing and logistics.
                     </p>
 <div className="flex flex-wrap gap-2 md:gap-4">
-<button className="bg-on-tertiary-container text-white px-4 py-2 md:px-8 md:py-4 rounded-lg font-headline font-extrabold text-[10px] md:text-sm uppercase tracking-widest hover:translate-y-[-2px] transition-all shadow-xl shadow-on-tertiary-container/20">Buy Land</button>
-<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-4 py-2 md:px-8 md:py-4 rounded-lg font-headline font-extrabold text-[10px] md:text-sm uppercase tracking-widest hover:bg-white hover:text-primary transition-all flex items-center gap-2">Download Brochure <span className="material-symbols-outlined text-[14px] md:text-sm">download</span></a>
+<button className="bg-[#ff7627] text-white px-5 py-3 md:px-10 md:py-5 rounded-2xl font-headline font-black text-[10px] md:text-sm uppercase tracking-[0.2em] hover:scale-105 hover:shadow-2xl hover:shadow-[#ff7627]/40 active:scale-95 transition-all outline outline-2 outline-[#ff7627]/20 outline-offset-4">Buy Land</button>
+<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="bg-white/10 backdrop-blur-xl border border-white/20 text-white px-5 py-3 md:px-10 md:py-5 rounded-2xl font-headline font-black text-[10px] md:text-sm uppercase tracking-[0.2em] hover:bg-white/20 hover:scale-105 active:scale-95 transition-all flex items-center gap-3">Download Brochure <span className="material-symbols-outlined text-[16px] md:text-lg">download</span></a>
 <a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="text-white px-4 py-2 md:px-8 md:py-4 font-headline font-extrabold text-[10px] md:text-sm uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
                             Book Site Visit <span className="material-symbols-outlined text-[14px] md:text-sm">arrow_forward</span>
 </a>
@@ -32,7 +32,7 @@ export default function Home() {
 </div>
 </section>
 
-<section className="min-h-[120px] md:h-[90px] md:min-h-[90px] mt-[10px] md:mt-[20px] flex items-center bg-surface relative overflow-hidden border-y border-outline-variant/10">
+<section className="min-h-[120px] md:h-[100px] md:min-h-[100px] mt-[10px] md:mt-[30px] flex items-center bg-white/5 dark:bg-[#002046]/40 backdrop-blur-xl relative overflow-hidden border-y border-white/5 shadow-2xl">
 <div className="container mx-auto px-8">
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center h-full py-4">
 <div className="flex items-center gap-4">
@@ -78,64 +78,64 @@ export default function Home() {
 </div>
 <div className="columns-1 md:columns-2 lg:columns-3 gap-8">
 
-<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 break-inside-avoid mb-8">
-<div className="relative overflow-hidden">
-<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" data-alt="wide shot of a clean flat industrial plot ready for construction with heavy machinery in the distance and blue sky" src="/featureImages1.jpg" />
-<span className="absolute top-4 left-4 bg-primary text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Plot Alpha</span>
-</div>
-<div className="p-8">
-<h3 className="font-headline text-xl font-bold text-primary mb-2">Industrial Land Parcel</h3>
-<p className="text-secondary text-sm mb-6 line-clamp-2">Prime level ground with 33kV dedicated power connection and heavy-duty approach road access.</p>
-<div className="flex items-center justify-between py-4 border-t border-outline-variant/20">
-<div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-secondary text-sm">square_foot</span>
-<span className="text-primary font-bold text-sm">10-50 Acres</span>
-</div>
-<div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-secondary text-sm">verified</span>
-<span className="text-primary font-bold text-sm">Ready to Build</span>
-</div>
-</div>
-</div>
-</div>
+                    <div className="group bg-white/5 dark:bg-[#002046]/40 backdrop-blur-xl rounded-3xl overflow-hidden border border-white/10 hover:border-[#ff7627]/40 hover:shadow-2xl hover:shadow-[#002046]/30 transition-all duration-700 break-inside-avoid mb-8">
+                        <div className="relative overflow-hidden">
+                            <img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" src="/featureImages1.jpg" alt="Industrial Land Parcel" />
+                            <span className="absolute top-4 left-4 bg-[#ff7627] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-full shadow-lg">Plot Alpha</span>
+                        </div>
+                        <div className="p-8">
+                            <h3 className="font-headline text-xl font-black text-primary mb-3 uppercase tracking-tighter italic group-hover:text-[#ff7627] transition-colors">Industrial Land Parcel</h3>
+                            <p className="text-secondary text-sm mb-8 font-medium leading-relaxed">Prime level ground with 33kV dedicated power connection and heavy-duty approach roads.</p>
+                            <div className="flex items-center justify-between py-6 border-t border-outline-variant/30">
+                                <div className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-[#ff7627] text-lg">open_in_full</span>
+                                    <span className="text-primary font-black text-[10px] uppercase tracking-widest">10-50 Acres</span>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-[#ff7627] text-lg">verified</span>
+                                    <span className="text-primary font-black text-[10px] uppercase tracking-widest">Ready to Build</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 break-inside-avoid mb-8">
+<div className="group bg-white/5 dark:bg-[#002046]/40 backdrop-blur-xl rounded-3xl overflow-hidden border border-white/10 hover:border-[#ff7627]/40 hover:shadow-2xl hover:shadow-[#002046]/30 transition-all duration-700 break-inside-avoid mb-8">
 <div className="relative overflow-hidden">
 <img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" data-alt="modern industrial prefab steel shed with high ceilings and wide roller doors in a clean concrete setting" src="/featureImages2.jpg" />
-<span className="absolute top-4 left-4 bg-on-tertiary-container text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Premium Shed</span>
+<span className="absolute top-4 left-4 bg-[#ff7627] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-full shadow-lg">Premium Shed</span>
 </div>
 <div className="p-8">
-<h3 className="font-headline text-xl font-bold text-primary mb-2">Grade-A Prefab Shed</h3>
-<p className="text-secondary text-sm mb-6 line-clamp-2">12m clear height, FM2 flooring, and integrated fire suppression systems for modern logistics.</p>
-<div className="flex items-center justify-between py-4 border-t border-outline-variant/20">
-<div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-secondary text-sm">height</span>
-<span className="text-primary font-bold text-sm">12M Height</span>
+<h3 className="font-headline text-xl font-black text-primary mb-3 uppercase tracking-tighter italic group-hover:text-[#ff7627] transition-colors">Grade-A Prefab Shed</h3>
+<p className="text-secondary text-sm mb-8 line-clamp-2 leading-relaxed font-medium">12m clear height, FM2 flooring, and integrated fire suppression systems for modern logistics.</p>
+<div className="flex items-center justify-between py-6 border-t border-outline-variant/30">
+<div className="flex items-center gap-3">
+<span className="material-symbols-outlined text-[#ff7627] text-lg">height</span>
+<span className="text-primary font-black text-[10px] uppercase tracking-widest">12M Height</span>
 </div>
-<div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-secondary text-sm">dock</span>
-<span className="text-primary font-bold text-sm">8 Docks</span>
+<div className="flex items-center gap-3">
+<span className="material-symbols-outlined text-[#ff7627] text-lg">dock</span>
+<span className="text-primary font-black text-[10px] uppercase tracking-widest">8 Docks</span>
 </div>
 </div>
 </div>
 </div>
 
-<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 break-inside-avoid mb-8">
+<div className="group bg-white/5 dark:bg-[#002046]/40 backdrop-blur-xl rounded-3xl overflow-hidden border border-white/10 hover:border-[#ff7627]/40 hover:shadow-2xl hover:shadow-[#002046]/30 transition-all duration-700 break-inside-avoid mb-8">
 <div className="relative overflow-hidden">
 <img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" data-alt="industrial logistics hub with trucks parked at loading docks and massive storage capacity warehouse architecture" src="/featureImages3.jpg" />
-<span className="absolute top-4 left-4 bg-primary text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Logistics Hub</span>
+<span className="absolute top-4 left-4 bg-[#ff7627] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-full shadow-lg">Custom Build</span>
 </div>
 <div className="p-8">
-<h3 className="font-headline text-xl font-bold text-primary mb-2">Custom Built Solutions</h3>
-<p className="text-secondary text-sm mb-6 line-clamp-2">Tailor-made industrial facilities engineered to your specific manufacturing workflow requirements.</p>
-<div className="flex items-center justify-between py-4 border-t border-outline-variant/20">
-<div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-secondary text-sm">design_services</span>
-<span className="text-primary font-bold text-sm">BTS Options</span>
+<h3 className="font-headline text-xl font-black text-primary mb-3 uppercase tracking-tighter italic group-hover:text-[#ff7627] transition-colors">Custom Built Solutions</h3>
+<p className="text-secondary text-sm mb-8 line-clamp-2 leading-relaxed font-medium">Tailor-made industrial facilities engineered to your specific manufacturing workflow requirements.</p>
+<div className="flex items-center justify-between py-6 border-t border-outline-variant/30">
+<div className="flex items-center gap-3">
+<span className="material-symbols-outlined text-[#ff7627] text-lg">design_services</span>
+<span className="text-primary font-black text-[10px] uppercase tracking-widest">BTS Options</span>
 </div>
-<div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-secondary text-sm">foundation</span>
-<span className="text-primary font-bold text-sm">Heavy Loading</span>
+<div className="flex items-center gap-3">
+<span className="material-symbols-outlined text-[#ff7627] text-lg">foundation</span>
+<span className="text-primary font-black text-[10px] uppercase tracking-widest">Heavy Loading</span>
 </div>
 </div>
 </div>
@@ -233,37 +233,45 @@ export default function Home() {
 </div>
 </div>
 
-<div className="md:col-span-2 bg-surface-container-low rounded-3xl p-12 border border-outline-variant/10 relative group overflow-hidden">
-<img src="/featureImages21.jpg" className="absolute inset-0 w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-700" alt="bg" />
+<div className="md:col-span-2 bg-[#002046]/40 backdrop-blur-3xl rounded-[40px] p-12 border border-white/5 relative group overflow-hidden shadow-2xl">
+<div className="absolute top-0 right-0 w-64 h-64 bg-[#ff7627]/10 blur-[100px] -z-10"></div>
 <div className="relative z-10">
-<h3 className="font-headline text-3xl font-black text-primary mb-8 italic">Plug-and-Play Infrastructure</h3>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div className="flex gap-4">
-<span className="material-symbols-outlined text-on-tertiary-container">bolt</span>
+<h3 className="font-headline text-3xl font-black text-white mb-10 italic tracking-tighter uppercase">Plug-and-Play Infrastructure</h3>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div className="flex gap-5 group/item">
+<div className="w-12 h-12 rounded-2xl bg-white/5 backdrop-blur-md flex items-center justify-center border border-white/10 group-hover/item:border-[#ff7627]/50 transition-all">
+<span className="material-symbols-outlined text-[#ff7627]">bolt</span>
+</div>
 <div>
-<p className="font-bold text-primary uppercase text-xs mb-1">Grid Power</p>
-<p className="text-secondary text-sm">Dedicated 33/11 KV Internal Substation Grid.</p>
+<p className="font-black text-white uppercase text-[10px] tracking-widest mb-1">Grid Power</p>
+<p className="text-slate-300 text-sm font-medium">Dedicated 33/11 KV Internal Substation Grid.</p>
 </div>
 </div>
-<div className="flex gap-4">
-<span className="material-symbols-outlined text-on-tertiary-container">scale</span>
+<div className="flex gap-5 group/item">
+<div className="w-12 h-12 rounded-2xl bg-white/5 backdrop-blur-md flex items-center justify-center border border-white/10 group-hover/item:border-[#ff7627]/50 transition-all">
+<span className="material-symbols-outlined text-[#ff7627]">scale</span>
+</div>
 <div>
-<p className="font-bold text-primary uppercase text-xs mb-1">Heavy Logistics</p>
-<p className="text-secondary text-sm">On-site 100 MT Weigh Bridge for cargo efficiency.</p>
+<p className="font-black text-white uppercase text-[10px] tracking-widest mb-1">Heavy Logistics</p>
+<p className="text-slate-300 text-sm font-medium">On-site 100 MT Weigh Bridge for cargo efficiency.</p>
 </div>
 </div>
-<div className="flex gap-4">
-<span className="material-symbols-outlined text-on-tertiary-container">add_road</span>
+<div className="flex gap-5 group/item">
+<div className="w-12 h-12 rounded-2xl bg-white/5 backdrop-blur-md flex items-center justify-center border border-white/10 group-hover/item:border-[#ff7627]/50 transition-all">
+<span className="material-symbols-outlined text-[#ff7627]">add_road</span>
+</div>
 <div>
-<p className="font-bold text-primary uppercase text-xs mb-1">Apex Roads</p>
-<p className="text-secondary text-sm">50ft wide main entrance with 45ft wide internal roads.</p>
+<p className="font-black text-white uppercase text-[10px] tracking-widest mb-1">Apex Roads</p>
+<p className="text-slate-300 text-sm font-medium">50ft wide main entrance with 45ft wide internal roads.</p>
 </div>
 </div>
-<div className="flex gap-4">
-<span className="material-symbols-outlined text-on-tertiary-container">verified</span>
+<div className="flex gap-5 group/item">
+<div className="w-12 h-12 rounded-2xl bg-white/5 backdrop-blur-md flex items-center justify-center border border-white/10 group-hover/item:border-[#ff7627]/50 transition-all">
+<span className="material-symbols-outlined text-[#ff7627]">verified</span>
+</div>
 <div>
-<p className="font-bold text-primary uppercase text-xs mb-1">Compliance</p>
-<p className="text-secondary text-sm">Panchayat NOC, Trade License & HR support.</p>
+<p className="font-black text-white uppercase text-[10px] tracking-widest mb-1">Compliance</p>
+<p className="text-slate-300 text-sm font-medium">Panchayat NOC, Trade License & HR support.</p>
 </div>
 </div>
 </div>

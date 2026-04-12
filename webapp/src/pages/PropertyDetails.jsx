@@ -214,23 +214,23 @@ export default function PropertyDetails() {
 
     return (
         <main>
-            <div className="mb-8">
-                <div className="flex items-center gap-2 text-on-secondary-container text-xs font-medium uppercase tracking-widest mb-4">
-                    <Link to="/properties">Properties</Link>
+            <div className="mb-12">
+                <div className="flex items-center gap-3 text-secondary text-[10px] font-black uppercase tracking-[0.2em] mb-6">
+                    <Link to="/properties" className="hover:text-[#ff7627] transition-colors">Portfolio</Link>
                     <span className="material-symbols-outlined text-[14px]">chevron_right</span>
-                    <span className="text-on-tertiary-container">{property.title}</span>
+                    <span className="text-primary italic">{property.title}</span>
                 </div>
-                <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-                    <div>
-                        <h1 className="font-headline text-4xl md:text-5xl font-extrabold text-primary tracking-tight mb-2">{property.title}</h1>
-                        <div className="flex items-center gap-2 text-secondary">
-                            <span className="material-symbols-outlined text-on-tertiary-container">location_on</span>
-                            <span className="font-medium">{property.location}</span>
+                <div className="flex flex-col md:flex-row md:items-end justify-between gap-10">
+                    <div className="max-w-3xl">
+                        <h1 className="font-headline text-4xl md:text-7xl font-black text-primary tracking-tighter mb-4 italic uppercase">{property.title}</h1>
+                        <div className="flex items-center gap-3 text-secondary">
+                            <span className="material-symbols-outlined text-[#ff7627]">location_on</span>
+                            <span className="font-black text-[10px] uppercase tracking-widest">{property.location}</span>
                         </div>
                     </div>
-                    <div className="bg-surface-container-lowest p-6 rounded-xl border-b-4 border-on-tertiary-container shadow-sm flex flex-col items-end">
-                        <span className="text-xs uppercase tracking-widest text-secondary font-bold mb-1">Starting From</span>
-                        <span className="font-headline text-3xl font-black text-primary">₹{property.price}</span>
+                    <div className="bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/10 border-b-[8px] border-b-[#ff7627] shadow-2xl flex flex-col items-end">
+                        <span className="text-[10px] uppercase tracking-[0.3em] text-secondary font-black mb-2">Audit Valuation</span>
+                        <span className="font-headline text-4xl font-black text-primary italic">₹{property.price}</span>
                     </div>
                 </div>
             </div>
@@ -266,26 +266,26 @@ export default function PropertyDetails() {
                             <span className="w-8 h-[2px] bg-on-tertiary-container"></span>
                             Key Specifications
                         </h3>
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-0.5 bg-outline-variant/20 rounded-xl overflow-hidden border border-outline-variant/10">
-                            <div className="bg-surface-container-lowest p-6 flex flex-col gap-2">
-                                <span className="material-symbols-outlined text-on-tertiary-container">square_foot</span>
-                                <span className="text-[10px] uppercase font-bold text-secondary tracking-widest">Total Area</span>
-                                <span className="font-headline font-bold text-lg text-primary">{property.totalArea}</span>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div className="bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/5 flex flex-col gap-3 group hover:border-[#ff7627]/40 transition-all">
+                                <span className="material-symbols-outlined text-[#ff7627] text-2xl">square_foot</span>
+                                <span className="text-[10px] uppercase font-black text-secondary tracking-widest">Scale Area</span>
+                                <span className="font-headline font-black text-xl text-primary italic">{property.totalArea}</span>
                             </div>
-                            <div className="bg-surface-container-lowest p-6 flex flex-col gap-2">
-                                <span className="material-symbols-outlined text-on-tertiary-container">bolt</span>
-                                <span className="text-[10px] uppercase font-bold text-secondary tracking-widest">Power Capacity</span>
-                                <span className="font-headline font-bold text-lg text-primary">{property.power}</span>
+                            <div className="bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/5 flex flex-col gap-3 group hover:border-[#ff7627]/40 transition-all">
+                                <span className="material-symbols-outlined text-[#ff7627] text-2xl">bolt</span>
+                                <span className="text-[10px] uppercase font-black text-secondary tracking-widest">Power Grid</span>
+                                <span className="font-headline font-black text-xl text-primary italic">{property.power}</span>
                             </div>
-                            <div className="bg-surface-container-lowest p-6 flex flex-col gap-2">
-                                <span className="material-symbols-outlined text-on-tertiary-container">add_road</span>
-                                <span className="text-[10px] uppercase font-bold text-secondary tracking-widest">Road Width</span>
-                                <span className="font-headline font-bold text-lg text-primary">{property.road}</span>
+                            <div className="bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/5 flex flex-col gap-3 group hover:border-[#ff7627]/40 transition-all">
+                                <span className="material-symbols-outlined text-[#ff7627] text-2xl">add_road</span>
+                                <span className="text-[10px] uppercase font-black text-secondary tracking-widest">Arterial Road</span>
+                                <span className="font-headline font-black text-xl text-primary italic">{property.road}</span>
                             </div>
-                            <div className="bg-surface-container-lowest p-6 flex flex-col gap-2">
-                                <span className="material-symbols-outlined text-on-tertiary-container">water_drop</span>
-                                <span className="text-[10px] uppercase font-bold text-secondary tracking-widest">Water Supply</span>
-                                <span className="font-headline font-bold text-lg text-primary">{property.water}</span>
+                            <div className="bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/5 flex flex-col gap-3 group hover:border-[#ff7627]/40 transition-all">
+                                <span className="material-symbols-outlined text-[#ff7627] text-2xl">water_drop</span>
+                                <span className="text-[10px] uppercase font-black text-secondary tracking-widest">Utility Water</span>
+                                <span className="font-headline font-black text-xl text-primary italic">{property.water}</span>
                             </div>
                         </div>
                     </section>
@@ -313,7 +313,7 @@ export default function PropertyDetails() {
                     <section>
                         <div className="flex justify-between items-end mb-6">
                             <h3 className="font-headline text-xl font-bold uppercase tracking-tight text-primary">Strategic Location</h3>
-                            <span className="text-xs font-bold text-on-tertiary-container uppercase tracking-widest underline decoration-2 underline-offset-4 cursor-pointer">Get Directions</span>
+                            <span className="text-xs font-bold text-[#ff7627] uppercase tracking-widest underline decoration-2 underline-offset-4 cursor-pointer">Get Directions</span>
                         </div>
                         <div className="w-full h-[400px] bg-surface-container rounded-xl overflow-hidden relative shadow-inner">
                             <img className="w-full h-full object-cover grayscale opacity-60" src="https://images.unsplash.com/photo-1590247813693-5541d1c609fd?q=80&w=2109&auto=format&fit=crop" alt="map" />
@@ -329,33 +329,29 @@ export default function PropertyDetails() {
                     </section>
                 </div>
 
-                <div className="space-y-6">
-                    <div className="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden sticky top-32">
-                        <div className="bg-surface-container-high px-8 py-6">
-                            <span className="text-[10px] font-black uppercase text-secondary tracking-widest">Leasing Consultant</span>
+                <div className="space-y-8">
+                    <div className="bg-white/5 backdrop-blur-3xl rounded-[32px] shadow-2xl shadow-[#002046]/20 overflow-hidden sticky top-32 border border-white/10">
+                        <div className="bg-white/5 px-10 py-6 border-b border-white/10">
+                            <span className="text-[10px] font-black uppercase text-secondary tracking-[0.3em]">Engineering Consultant</span>
                         </div>
-                        <div className="p-8">
-                            <div className="flex items-center gap-4 mb-8">
-                                <div className="w-16 h-16 rounded-full overflow-hidden bg-surface-container">
-                                    <img className="w-full h-full object-cover" src="/featureImages14.jpg" alt="Marcus" />
+                        <div className="p-10">
+                            <div className="flex items-center gap-6 mb-10">
+                                <div className="w-20 h-20 rounded-2xl overflow-hidden bg-white/5 border border-white/10 p-1">
+                                    <img className="w-full h-full object-cover rounded-xl" src="/featureImages14.jpg" alt="Consultant" />
                                 </div>
                                 <div>
-                                    <h4 className="font-headline font-bold text-primary">Marcus Thornton</h4>
-                                    <p className="text-xs text-secondary font-medium">Head of Industrial Sales</p>
+                                    <h4 className="font-headline font-black text-xl text-primary italic uppercase tracking-tighter">Marcus Thornton</h4>
+                                    <p className="text-[10px] text-secondary font-black uppercase tracking-widest mt-1">Industrial Asset Head</p>
                                 </div>
                             </div>
                             <div className="space-y-4">
-                                <a href="tel:+919831177236" className="w-full flex items-center justify-center gap-3 bg-white border border-outline-variant py-3 rounded text-sm font-bold text-primary hover:bg-surface-container-low transition-colors">
-                                    <span className="material-symbols-outlined text-[20px]">call</span>
+                                <a href="tel:+919831177236" className="w-full flex items-center justify-center gap-4 bg-white/5 border border-white/10 py-5 rounded-2xl text-[10px] font-black uppercase tracking-widest text-primary hover:bg-[#ff7627] hover:text-white hover:border-[#ff7627] transition-all">
+                                    <span className="material-symbols-outlined text-[18px]">call</span>
                                     +91 98311 77236
                                 </a>
-                                <a href="https://wa.me/919831177236" className="w-full flex items-center justify-center gap-3 bg-[#25D366] py-3 rounded text-sm font-bold text-white hover:opacity-90 transition-opacity">
-                                    <span className="material-symbols-outlined text-[20px]">chat</span>
-                                    WhatsApp Chat
-                                </a>
-                                <div className="pt-4 border-t border-outline-variant/30">
-                                    <a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-on-tertiary-container py-4 rounded text-xs font-black uppercase tracking-widest text-white shadow-lg shadow-on-tertiary-container/20 hover:translate-y-[-2px] transition-transform">
-                                        Schedule Site Visit
+                                <div className="pt-6">
+                                    <a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-[#ff7627] py-6 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] text-white shadow-2xl shadow-[#ff7627]/30 hover:scale-105 transition-all outline outline-2 outline-[#ff7627]/20 outline-offset-4">
+                                        Schedule Site Audit
                                     </a>
                                 </div>
                             </div>
