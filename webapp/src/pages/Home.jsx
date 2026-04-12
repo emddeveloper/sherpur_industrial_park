@@ -8,7 +8,7 @@ export default function Home() {
 
 <section className="relative min-h-[921px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img className="w-full h-full object-cover" data-alt="expansive cinematic aerial view of a massive modern industrial park with high-tech logistics warehouses and solar panel roofs under golden sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBN4gf7n_IWkTWyzeDvrl2jLy1Ox58dM_mLSOtRTjFZsBaN_ig-6bYd2xxV-EtXQu5MbpmhxAuRYxGsxcdkj4Kxf4CkJM9B_8Bi4bxU7F5k8H9DLMUNWSgn-3wo5TP3_80-XyziegcsOJykcxHSaeZHG3iQvv3mz_V_JN0i5zGQqfF9J4alvGviLtd8vvdABkDjxCnc8_A5jK444Ow5bw4KSzEAnODRQcYh2ADBNZVe-4VgxnqPib8XdHof9UftrgPSw0j6q3HAOA0" />
+<img className="w-full h-full object-cover" data-alt="expansive cinematic aerial view of a massive modern industrial park with high-tech logistics warehouses and solar panel roofs under golden sunlight" src="/hero1.png" />
 <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent"></div>
 </div>
 <div className="container mx-auto px-8 relative z-10">
@@ -67,11 +67,11 @@ export default function Home() {
 </div>
 <a className="text-primary font-headline font-bold text-sm uppercase tracking-widest border-b-2 border-primary/20 hover:border-primary transition-all pb-1" href="#">View Full Masterplan</a>
 </div>
-<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div className="columns-1 md:columns-2 lg:columns-3 gap-8">
 
-<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
-<div className="h-64 overflow-hidden relative">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="wide shot of a clean flat industrial plot ready for construction with heavy machinery in the distance and blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIU3bxvsO3X_0nZGcjl17uZDuwwVGgIAqcGk2gPMZAjTPn5-yFLcWcvcHB9qSremLO2AP8Y1Gtp5KS71RCrjMyb9BvEPUwLlPqbXdDyuRTsnadctmwRBOfc8QcNTt4Qddkq_bLxjK00Lc_1uuTATmAsfo1gCF2fTkf2vVr8iJaBUwTEKExzggLY86C8reYpt85ydWRmfd9ITs4qjvy_Svzl1vpruNC8AuAPCiuG-EtGPmyWU88atzzGKmLJlmaWft-DBMceD0ZX6E" />
+<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 break-inside-avoid mb-8">
+<div className="relative overflow-hidden">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" data-alt="wide shot of a clean flat industrial plot ready for construction with heavy machinery in the distance and blue sky" src="/featureImages1.jpg" />
 <span className="absolute top-4 left-4 bg-primary text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Plot Alpha</span>
 </div>
 <div className="p-8">
@@ -90,9 +90,9 @@ export default function Home() {
 </div>
 </div>
 
-<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
-<div className="h-64 overflow-hidden relative">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="modern industrial prefab steel shed with high ceilings and wide roller doors in a clean concrete setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmT8KMeU9gByYiwJqlSm54H3HIWzuooLtQQ_RGkzwM4_Dg2hVAYV9oaM43Sndq9eWUM5pfMl0ODbJVhl2EQ8xoU6jcUmyFPE0Z_hrb5iPT4-moZ1alddzx-G8vINL3VIBhd-u5veSG1RNxs853BraHsPy5-I84DA_cTvS7pewDSkOgJorVC2bRe4DbcV23e3TbjVnx7QLXAbWFFMf-vE49TctokLlZijoKa6usbk7I-0Ys0So9P5bO8sxABaIhx3dYrYk50kBJG_M" />
+<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 break-inside-avoid mb-8">
+<div className="relative overflow-hidden">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" data-alt="modern industrial prefab steel shed with high ceilings and wide roller doors in a clean concrete setting" src="/featureImages2.jpg" />
 <span className="absolute top-4 left-4 bg-on-tertiary-container text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Premium Shed</span>
 </div>
 <div className="p-8">
@@ -111,9 +111,9 @@ export default function Home() {
 </div>
 </div>
 
-<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
-<div className="h-64 overflow-hidden relative">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="industrial logistics hub with trucks parked at loading docks and massive storage capacity warehouse architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFFi6weTrS_ADwcEUwvNwUhhjBvGLiS_VcFCtsehLsD5CKYVjjbUsup__hKIGRd1oQqjYWo8xgZ7OJvwl2mM_dG-cwJQQxf7lGVOd1Z1oHZnk_cxW0Qp5Xi86KknGGirVxJBMaLQRtVHSFCPvfa3OcshiJT6mXXu7Ej0gypr31_aMoPCu_YMugCOQj7gA_4VtH9EAXBlZdPzkuevhyMZEScjWOaMkZGXo9L0kUjldplrWYpXokHbgqdalFANNzdnq8jBIMCONDpVg" />
+<div className="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 break-inside-avoid mb-8">
+<div className="relative overflow-hidden">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" data-alt="industrial logistics hub with trucks parked at loading docks and massive storage capacity warehouse architecture" src="/featureImages3.jpg" />
 <span className="absolute top-4 left-4 bg-primary text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Logistics Hub</span>
 </div>
 <div className="p-8">
@@ -164,7 +164,7 @@ export default function Home() {
 </div>
 <div className="relative group">
 <div className="aspect-video bg-surface-container rounded-2xl overflow-hidden border-8 border-white/5">
-<img className="w-full h-full object-cover" data-alt="high contrast black and white architectural map illustration showing industrial park layout with geometric plots and roads" data-location="Sherpur Industrial Park" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-BK2bWfHmfdSiI-1-qUFv46E8Tu4cuBtqDSVCU7U0ZyZTdJM03XjM6Dwz6sMCa1FeDKTrSRsStypq-qcPl3pPfeM5R3ENC0rFMlghrW1sWW5enCfWBqmOnAvH4gFgAiG1hZhs_bQwyyJvm5svwtQwp88jFunKAF17dGxu-G5puzBSszzwXNVTGBCCRznskBfKBb3ij1si3VPbyHaD82qCY5rUl8iR2Pa6oAxvwCjncx2gjfctte-GJd_EoIAd2jJEjkArbKzFeHg" />
+<img className="w-full h-full object-cover" data-alt="high contrast black and white architectural map illustration showing industrial park layout with geometric plots and roads" data-location="Sherpur Industrial Park" src="/featureImages4.jpg" />
 <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-all duration-500"></div>
 </div>
 </div>
@@ -182,6 +182,43 @@ export default function Home() {
 <div className="flex items-center justify-center font-headline font-black text-xl text-primary tracking-tighter">GLOBAL_PRO</div>
 <div className="flex items-center justify-center font-headline font-black text-xl text-primary tracking-tighter italic">INFRA_BLUE</div>
 <div className="flex items-center justify-center font-headline font-black text-xl text-primary tracking-tighter">M_FABRICS</div>
+</div>
+</div>
+</section>
+
+<section className="py-24 bg-surface-container-low">
+<div className="container mx-auto px-8">
+<div className="text-center mb-16">
+<h4 className="text-on-tertiary-container font-headline text-xs font-bold tracking-[0.3em] uppercase mb-4">Industrial Excellence</h4>
+<h2 className="text-primary font-headline text-4xl md:text-5xl font-extrabold tracking-tighter">Feature Showcase</h2>
+</div>
+<div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+
+<div className="group rounded-2xl overflow-hidden relative shadow-lg break-inside-avoid">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" src="/featureImages21.jpg" alt="Feature Showcase 1" />
+<div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+
+<div className="group rounded-2xl overflow-hidden relative shadow-lg break-inside-avoid">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" src="/featureImages23.jpg" alt="Feature Showcase 2" />
+<div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+
+<div className="group rounded-2xl overflow-hidden relative shadow-lg break-inside-avoid">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" src="/featureImages24.jpg" alt="Feature Showcase 3" />
+<div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+
+<div className="group rounded-2xl overflow-hidden relative shadow-lg break-inside-avoid">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" src="/featureImages25.jpg" alt="Feature Showcase 4" />
+<div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+
+<div className="group rounded-2xl overflow-hidden relative shadow-lg break-inside-avoid">
+<img className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700" src="/featureImages26.jpg" alt="Feature Showcase 5" />
+<div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+
 </div>
 </div>
 </section>

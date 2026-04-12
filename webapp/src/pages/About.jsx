@@ -8,7 +8,7 @@ export default function About() {
 
 <section className="relative min-height-[716px] flex items-center overflow-hidden bg-primary overflow-hidden">
 <div className="absolute inset-0 opacity-40">
-<img className="w-full h-full object-cover" data-alt="Cinematic wide shot of a modern industrial warehouse complex at dusk with architectural lighting and cool steel tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5HeFGIznbP049RAbfnH_FLGWFTNMK0aS8Wm99mXpM_ISbs71UTk4wqj-L7qczxqfULEpIZ8wpjJqDjqYsapFtbIsZ_2rCDm8W89UE7vQIA2rjJRP6yUEOuUl3an6k4G4R3O3HBS_7HyDrmeujgtXknII7pgo2kAnWE9qDAvxgO1Oc94915yPTjpg_ZWgqN8BdDpWVPQ0X__urym5R7J1Wve13JiUNO-FJ1EG8jci8wZdvCWAbO-5RVvC05dagBQbCJ3nL9L2E8tU" />
+<img className="w-full h-full object-cover" data-alt="Cinematic wide shot of a modern industrial warehouse complex at dusk with architectural lighting and cool steel tones" src="/hero2.jpg" />
 </div>
 <div className="absolute inset-0 bg-gradient-to-tr from-primary via-primary/80 to-transparent"></div>
 <div className="relative z-10 max-w-[1440px] mx-auto px-8 py-32 w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
@@ -31,7 +31,7 @@ export default function About() {
 <div className="max-w-[1440px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 <div className="relative">
 <div className="aspect-square bg-surface-container-high rounded-xl overflow-hidden relative z-10">
-<img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Professional architectural detail of concrete and glass industrial building with clean lines and blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3w3-YDY9tB_PwOWJ0NxWw5__SnhFyAaTpfYLBrbqqakr-A4fVzBMoJArCz_glMZvRlRC93t2j4tkTEsX_rtzxi-9OeIyi3iZY36cYRQsuKjAYlRovCzk7NZYpsTEsDuehLWEb_EQBZ33G1_M5MAeJfSRh5oc_IpOKtv51s3_EZr6htzHOYfB2Az8cEt9tzZIGf2p4ebOC6GlkflzCzd9CxAIeVVbKky47_ibBzaksjXJKv6Sv5UvijJPnaHoEpSBhau2tbka3PsA" />
+<img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Professional architectural detail of concrete and glass industrial building with clean lines and blue sky" src="/featureImages17.jpg" />
 </div>
 <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-secondary-container -z-0 opacity-50 rounded-lg"></div>
 </div>
@@ -140,7 +140,7 @@ export default function About() {
 
 <div className="lg:col-span-7 relative">
 <div className="rounded-xl overflow-hidden aspect-[4/3] bg-surface-container-high shadow-2xl relative border-[12px] border-surface-container-lowest">
-<img className="w-full h-full object-cover" data-alt="Stylized top-down map view of an industrial district with highlighted logistic routes and primary highways" data-location="Sherpur" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgiB5yjgXCER84td6pVImzwOtrm5nA4Rt57VhE0EPZNUHN-UINYmVB16DGxANqIZSOYSuRNtWG2ilqO8UuTqgjNgIZ2B11bM1Fwz_f6hO80kQL6drR73NGgm8TSz4nnHqNbCNYLEodpT_LwQfEkUmjU_-ip6n9zo_su2flgr6BDJyTjxEg0DrxRtyyATPCpZk3uxk5jyuQa8VSymCUqZm6hRsbji2oKpxFDeDd52DxqQbjiVOCSRe-MLzLsXwbPfimhTKniPciXbU" />
+<img className="w-full h-full object-cover" data-alt="Stylized top-down map view of an industrial district with highlighted logistic routes and primary highways" data-location="Sherpur" src="/featureImages18.jpg" />
 
 <div className="absolute top-1/4 left-1/3 p-3 bg-primary text-white text-[10px] font-bold uppercase tracking-widest rounded-sm flex items-center gap-2 shadow-xl">
 <div className="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></div>

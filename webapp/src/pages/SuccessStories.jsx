@@ -8,7 +8,7 @@ export default function SuccessStories() {
 
 <section className="relative h-[650px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img className="w-full h-full object-cover" data-alt="wide angle shot of modern industrial park architecture with clean lines and steel structures under a clear blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgrp-ctk5qD7aoOYP5YFVECbiU2RF4BYPHQbDV6BKLEyZ1MBWeWvM7gNGJH2ISAge5GsA3y7kdT7C3W0aQRKMWwMu183HPUwOkuU5SYCmhiexgmm3abYx07VXYSBDjHgOz-CGi4KCtU-rlWqiu1nFLq6NWqEzGyS34Th_n3nlLbcpXiteHzHe5J2MnE3oF1nyabAfdYo2GV5CCZZkabmSgMDNZPJpaSRlXvCH2ZF9G0TuBfzadm0V32ZVJ5YWYL-fstNxbI7pLA4Y" />
+<img className="w-full h-full object-cover" data-alt="wide angle shot of modern industrial park architecture with clean lines and steel structures under a clear blue sky" src="/hero1.png" />
 <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent"></div>
 </div>
 <div className="relative z-10 max-w-[1440px] mx-auto px-8 w-full">
@@ -29,7 +29,7 @@ export default function SuccessStories() {
 
 <div className="lg:col-span-7 group">
 <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-lowest">
-<img className="w-full h-[550px] object-cover group-hover:scale-105 transition-transform duration-700" data-alt="modern warehouse interior with high ceilings and organized shipping docks showcasing efficient logistics operations" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsaqZSxY33WE10LgWGAqZLBDV2hh_6wNdpgBS1gvND4PEWt0SRZbxjlEw3Uo_6jgderksAgm65aS4XogbUfh8MWzuoyrV-SdzWZcAgqZW5-2ZdMOxDTiFw8eS_G_4_tu4YQH-o8DlDW3-71FCJZDdltAg1AjtwWxHlEN6tGfsYfdlKbgVmZ3B2U4yoNyzGxcuuLcvQMl9lrVFbyg7bCtJBSzWe9wK-qPFs43tB-x1GyzgsTVqs2BL_J-rLYDK-BiBDdsoHla0vqTg" />
+<img className="w-full h-[550px] object-cover group-hover:scale-105 transition-transform duration-700" data-alt="modern warehouse interior with high ceilings and organized shipping docks showcasing efficient logistics operations" src="/featureImages15.jpg" />
 <div className="absolute top-6 left-6 bg-white p-4 rounded-lg shadow-md">
 <span className="material-symbols-outlined text-primary text-4xl" data-icon="local_shipping">local_shipping</span>
 </div>
@@ -55,7 +55,7 @@ export default function SuccessStories() {
 
 <div className="lg:col-span-5 lg:mt-40">
 <div className="bg-surface-container-high rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
-<img className="w-full h-80 object-cover" data-alt="industrial steel fabrication plant with sparks flying from welding machines and large metal beams" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP9jZueE9CwJ3ajTy5ti9cTYRPQkZDJZTyfi7liBmr0z3Qf2IwL2S8D-2zDlz23XU2mlPLHNrvgMcnZFuYmYG7ZcTq9pLxWpRtKWQgTUy3lO99B45iZLoXtaETB5Z_FWfS-xrcZi-gVgALVFVh1H01mZONzQ3y77-22Dk5aFbBJwWwSORMo6rnJq1twcvCmUCB8PGV4RNM3SMSedyZa7oJGM84rzNVAF6eeieqSeLUvRCKs9r146fOaXlxq33S-HIsohG8lT7B6zs" />
+<img className="w-full h-80 object-cover" data-alt="industrial steel fabrication plant with sparks flying from welding machines and large metal beams" src="/featureImages16.jpg" />
 <div className="p-10">
 <div className="flex items-center gap-5 mb-8">
 <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center text-white">

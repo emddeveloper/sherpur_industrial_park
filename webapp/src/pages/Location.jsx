@@ -6,26 +6,11 @@ export default function Location() {
         <main>
             
 
-<nav className="sticky top-0 w-full z-50 bg-[#f8f9fa]/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(25,28,29,0.04)]">
-<div className="flex justify-between items-center px-8 py-5 max-w-[1440px] mx-auto">
-<div className="text-xl font-black text-[#002046] tracking-tighter font-headline uppercase">
-                SHERPUR INDUSTRIAL PARK
-            </div>
-<div className="hidden md:flex items-center gap-8">
-<a className="font-headline font-bold tracking-tight uppercase text-[#53606e] hover:text-[#002046] transition-colors" href="#">Properties</a>
-<a className="font-headline font-bold tracking-tight uppercase text-[#53606e] hover:text-[#002046] transition-colors" href="#">About Us</a>
-<a className="font-headline font-bold tracking-tight uppercase text-[#ff7627] border-b-2 border-[#ff7627] pb-1" href="#">Location</a>
-<a className="font-headline font-bold tracking-tight uppercase text-[#53606e] hover:text-[#002046] transition-colors" href="#">Contact</a>
-<button className="bg-on-tertiary-container text-white px-6 py-2 rounded-lg font-headline font-bold tracking-tight uppercase hover:-translate-y-0.5 transition-all duration-300">
-                    Enquire Now
-                </button>
-</div>
-</div>
-</nav>
+
 
 <section className="relative h-[819px] flex items-center overflow-hidden bg-primary">
 <div className="absolute inset-0 opacity-40">
-<img className="w-full h-full object-cover" data-alt="high-altitude satellite view of a modern industrial zone infrastructure grid with glowing transit lines at twilight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBLN5tREo3XYd4301ebqrWvIeW5QPMw0yUiM3q5__5K2RgpXkX1kusBDtOvIeKkGfWRijKsgLvqTA9fXmznVx3hALJ2xyBb8TZdqiL4L0ao7D0_MvOsWSbaAlWprHV7x-DPr4jTKRaNoOv_nqYh7ju2ed_niFSaNcGP4wVq8vfyv3JP-9odN7CEe4_tGdBbafBhHG5FMYLUOsTQiEgHvKlxBsDKs9-L2-pQDGfkDkF275XsZmoHhgDhn5FpsGLZ3ntQ5My1imeqqY" />
+<img className="w-full h-full object-cover" data-alt="high-altitude satellite view of a modern industrial zone infrastructure grid with glowing transit lines at twilight" src="/hero1.png" />
 </div>
 <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent"></div>
 <div className="relative z-10 max-w-[1440px] mx-auto px-8 w-full">
@@ -78,7 +63,7 @@ export default function Location() {
 
 <div className="lg:col-span-7 relative h-[500px] lg:h-auto rounded-2xl overflow-hidden shadow-2xl">
 <div className="absolute inset-0 bg-primary">
-<img className="w-full h-full object-cover mix-blend-overlay opacity-60" data-alt="stylized architectural site plan map showing road connections and rail lines in clean blue and orange technical lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDu0vKoKJv9IIh9-oXxEmLjm76dnFSO03ZkRG3dmRCLf7V6hoDTCRUeqz2WEzzsFelcQM7gfcQC8TUh554N1DUAIjLxunvOq1_KHc3qFta2Cw3Nlr-9JMtkBDjE-58IsuzAcvCzDbD3162BQklOTjQhFSyw-WDGeNqoKzqk1XMaUz6wVlzuFAYGjpGVov9izsrSxrU4AFZXICfcwvNCS6l_lOulCGLMJr6mvHqweCVqA-_eBB_ld3j-xxObNqTJJETeYrBmQTShlF8" />
+<img className="w-full h-full object-cover mix-blend-overlay opacity-60" data-alt="stylized architectural site plan map showing road connections and rail lines in clean blue and orange technical lines" src="/featureImages19.jpg" />
 </div>
 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
 
@@ -217,7 +202,7 @@ export default function Location() {
 
 <section className="py-24 relative overflow-hidden bg-primary">
 <div className="absolute inset-0 opacity-20">
-<img className="w-full h-full object-cover" data-alt="dramatic wide angle shot of high-quality concrete industrial floor reflecting overhead industrial lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGWH0eT-gzA6Zl5vyrLqJoY62LacwpmlkVm1T4ioTSJt5Uad1mEcrFHegBNBV6XkE3kxNCFXXpZMDKDSJvjI4rUKsJZWsmJzv51ojNMnpHInShymcnschSRXFnC5IkQwx2UtACPXXhWfNCszaExxMeChuJuFUrd1pjZtARdT7L7qYkRyb76CjOK4V1V8ai_f0C20m0kk8YbzTw4_TQb5g3CjtxYKdrxhra5c-QpJbryoVL6L8PiRBAaYs3rbuI0eWW1EeALth7KhQ" />
+<img className="w-full h-full object-cover" data-alt="dramatic wide angle shot of high-quality concrete industrial floor reflecting overhead industrial lights" src="/featureImages20.jpg" />
 </div>
 <div className="max-w-[1440px] mx-auto px-8 relative z-10 text-center">
 <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-white mb-8 tracking-tighter">Secure Your Strategic Advantage</h2>
