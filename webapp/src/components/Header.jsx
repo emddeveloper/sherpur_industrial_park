@@ -25,8 +25,15 @@ export default function Header() {
     <>
       <header className="fixed top-0 left-0 right-0 z-40 w-full bg-white/95 dark:bg-[#002046]/95 backdrop-blur-md shadow-lg border-b border-gray-200/10 transition-all duration-300">
         <nav className={`flex justify-between items-center w-full px-8 max-w-[1440px] mx-auto transition-all duration-300 ${isScrolled ? 'py-2' : 'py-3'}`}>
-          <Link to="/" className={`font-black text-[#002046] dark:text-white tracking-tighter transition-all duration-300 ${isScrolled ? 'text-lg' : 'text-xl'}`}>
-            SHERPUR INDUSTRIAL
+          <Link to="/" className="flex items-center gap-2 group">
+            <img 
+              src="/logo_sherpur.jpg" 
+              alt="Logo" 
+              className={`transition-all duration-300 object-contain rounded ${isScrolled ? 'h-8' : 'h-10'}`} 
+            />
+            <span className={`font-black text-[#002046] dark:text-white tracking-tighter transition-all duration-300 ${isScrolled ? 'text-lg' : 'text-xl'} group-hover:text-[#ff7627]`}>
+              SHERPUR INDUSTRIAL PARK
+            </span>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -65,7 +72,10 @@ export default function Header() {
         
         {/* Content Container */}
         <div className={`absolute top-0 left-0 bottom-0 w-[85%] max-w-xs bg-white dark:bg-[#002046] shadow-2xl transition-transform duration-500 ease-out flex flex-col p-10 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-          <div className="text-xl font-black text-[#002046] dark:text-white mb-12 tracking-tighter">SHERPUR INDUSTRIAL</div>
+          <div className="flex items-center gap-2 mb-12">
+            <img src="/logo_sherpur.jpg" alt="Logo" className="h-10 object-contain rounded" />
+            <span className="text-xl font-black text-[#002046] dark:text-white tracking-tighter">SHERPUR INDUSTRIAL PARK</span>
+          </div>
           
           <nav className="flex flex-col space-y-8">
             {navLinks.map((link) => (

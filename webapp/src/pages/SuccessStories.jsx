@@ -138,9 +138,9 @@ export default function SuccessStories() {
 <button className="bg-on-tertiary-container text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
                                 Book a Tour
                             </button>
-<button className="border-2 border-white/20 text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:bg-white/10 transition-all duration-300">
-                                Download Brochure
-                            </button>
+<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="border-2 border-white/20 text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:bg-white/10 transition-all duration-300 inline-flex items-center gap-3">
+                                Download Brochure <span className="material-symbols-outlined">download</span>
+                            </a>
 </div>
 </div>
 </div>

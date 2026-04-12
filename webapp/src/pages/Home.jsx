@@ -22,7 +22,7 @@ export default function Home() {
                     </p>
 <div className="flex flex-wrap gap-4">
 <button className="bg-on-tertiary-container text-white px-8 py-4 rounded-lg font-headline font-extrabold text-sm uppercase tracking-widest hover:translate-y-[-2px] transition-all shadow-xl shadow-on-tertiary-container/20">Buy Land</button>
-<button className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-lg font-headline font-extrabold text-sm uppercase tracking-widest hover:bg-white hover:text-primary transition-all">Rent Shed</button>
+<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-lg font-headline font-extrabold text-sm uppercase tracking-widest hover:bg-white hover:text-primary transition-all flex items-center gap-2">Download Brochure <span className="material-symbols-outlined text-sm">download</span></a>
 <button className="text-white px-8 py-4 font-headline font-extrabold text-sm uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
                             Book Site Visit <span className="material-symbols-outlined">arrow_forward</span>
 </button>
@@ -31,28 +31,36 @@ export default function Home() {
 </div>
 </section>
 
-<section className="py-24 bg-surface relative overflow-hidden">
+<section className="min-h-[120px] md:h-[90px] md:min-h-[90px] mt-[10px] md:mt-[20px] flex items-center bg-surface relative overflow-hidden border-y border-outline-variant/10">
 <div className="container mx-auto px-8">
-<div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-<div className="bg-surface-container-low p-10 rounded-xl border-l-4 border-primary">
-<span className="material-symbols-outlined text-primary text-4xl mb-6">architecture</span>
-<h3 className="font-headline text-3xl font-black text-primary mb-2">500 Acres</h3>
-<p className="text-secondary font-medium uppercase tracking-widest text-xs">Total Land Bank</p>
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center h-full py-4">
+<div className="flex items-center gap-4">
+<span className="material-symbols-outlined text-primary text-2xl">architecture</span>
+<div>
+<h3 className="font-headline text-lg font-black text-primary leading-none">500 Acres</h3>
+<p className="text-secondary font-bold uppercase tracking-widest text-[8px] mt-1">Total Land Bank</p>
 </div>
-<div className="bg-primary text-white p-10 rounded-xl">
-<span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6">security</span>
-<h3 className="font-headline text-3xl font-black mb-2">Secured</h3>
-<p className="text-on-primary-container font-medium uppercase tracking-widest text-xs">Boundary Wall Protection</p>
 </div>
-<div className="bg-surface-container-low p-10 rounded-xl border-l-4 border-on-tertiary-container">
-<span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6">bolt</span>
-<h3 className="font-headline text-3xl font-black text-primary mb-2">Ready</h3>
-<p className="text-secondary font-medium uppercase tracking-widest text-xs">Infrastructure Utility</p>
+<div className="flex items-center gap-4">
+<span className="material-symbols-outlined text-on-tertiary-container text-2xl">security</span>
+<div>
+<h3 className="font-headline text-lg font-black text-primary leading-none">Secured</h3>
+<p className="text-secondary font-bold uppercase tracking-widest text-[8px] mt-1">Boundary Wall Protection</p>
 </div>
-<div className="bg-surface-container p-10 rounded-xl">
-<span className="material-symbols-outlined text-primary text-4xl mb-6">conversion_path</span>
-<h3 className="font-headline text-3xl font-black text-primary mb-2">Direct</h3>
-<p className="text-secondary font-medium uppercase tracking-widest text-xs">Road Connectivity</p>
+</div>
+<div className="flex items-center gap-4">
+<span className="material-symbols-outlined text-on-tertiary-container text-2xl">bolt</span>
+<div>
+<h3 className="font-headline text-lg font-black text-primary leading-none">Ready</h3>
+<p className="text-secondary font-bold uppercase tracking-widest text-[8px] mt-1">Utility Ready</p>
+</div>
+</div>
+<div className="flex items-center gap-4 text-primary">
+<span className="material-symbols-outlined text-primary text-2xl">conversion_path</span>
+<div>
+<h3 className="font-headline text-lg font-black text-primary leading-none">Direct</h3>
+<p className="text-secondary font-bold uppercase tracking-widest text-[8px] mt-1">Road Connectivity</p>
+</div>
 </div>
 </div>
 </div>
@@ -60,8 +68,8 @@ export default function Home() {
 
 <section className="py-24 bg-surface-container-low blueprint-grid">
 <div className="container mx-auto px-8">
-<div className="flex flex-col md:flex-row justify-between items-end mb-16">
-<div>
+<div className="flex flex-col md:items-end mb-16 gap-4">
+<div className="text-left md:text-right">
 <h4 className="text-on-tertiary-container font-headline text-xs font-bold tracking-[0.3em] uppercase mb-4">Inventory Available</h4>
 <h2 className="text-primary font-headline text-4xl md:text-5xl font-extrabold tracking-tighter">Strategic Assets</h2>
 </div>
