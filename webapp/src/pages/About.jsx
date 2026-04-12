@@ -111,7 +111,7 @@ export default function About() {
 <div className="flex items-start gap-6 border-l-2 border-outline-variant/30 pl-8 py-2">
 <span className="material-symbols-outlined text-primary" data-icon="airport_shuttle">airport_shuttle</span>
 <div>
-<h4 className="font-headline font-bold text-primary">National Highway-12</h4>
+<h4 className="font-headline font-bold text-primary">National Highway-16 (NH-16)</h4>
 <p className="text-secondary font-body text-sm">Direct access point within 2.5 km for seamless state-wide transit.</p>
 </div>
 <span className="ml-auto font-headline font-black text-on-tertiary-container text-lg">05 MIN</span>

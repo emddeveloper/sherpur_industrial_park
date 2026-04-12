@@ -6,21 +6,21 @@ export default function Home() {
         <main>
             
 
-<section className="relative min-h-[260px] md:min-h-[921px] flex items-center overflow-hidden">
+<section className="relative min-h-[260px] md:min-h-[500px] flex items-center overflow-hidden mt-[65px]">
 <div className="absolute inset-0 z-0">
-  <img className="w-full h-full object-cover hidden md:block" data-alt="expansive cinematic aerial view of a massive modern industrial park with high-tech logistics warehouses and solar panel roofs under golden sunlight" src="/hero1.png" />
-  <img className="w-full h-full object-cover block md:hidden" data-alt="ground level shot of industrial infrastructure for mobile devices" src="/hero2.jpg" />
-  <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent"></div>
+  <img className="w-full h-[500px] object-cover hidden md:block" data-alt="expansive cinematic aerial view of a massive modern industrial park with high-tech logistics warehouses and solar panel roofs under golden sunlight" src="/hero-3.jpeg" />
+  <img className="w-full h-full object-cover block md:hidden" data-alt="ground level shot of industrial infrastructure for mobile devices" src="/hero-3-mobile.jpeg" />
+  {/* <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent"></div> */}
 </div>
-<div className="container mx-auto px-8 relative z-10 py-12 md:py-0">
+<div className="container mx-auto px-8 relative z-10 py-1 md:mb-[10px]">
 <div className="max-w-3xl">
-<span className="inline-block px-3 py-1 bg-on-tertiary-container text-white font-headline text-[10px] md:text-xs font-extrabold tracking-[0.2em] uppercase mb-4 md:mb-6 rounded">The Precision Hub</span>
-<h1 className="text-white font-headline text-3xl md:text-7xl font-extrabold leading-[1.1] mb-4 md:mb-8 tracking-tighter">
+<span className="inline-block px-3 py-1 bg-on-tertiary-container text-white font-headline text-[10px] md:text-xs font-extrabold tracking-[0.2em] uppercase mb-[150px] md:mb-[276px] rounded">The Precision Hub</span>
+{/* <h1 className="text-white font-headline text-3xl md:text-7xl font-extrabold leading-[1.1] mb-4 md:mb-8 tracking-tighter">
                         Build Your Industry in a Secure <span className="text-on-tertiary-container">500 Acre</span> Industrial Hub
-                    </h1>
-<p className="text-white text-xs md:text-xl font-medium mb-8 md:mb-12 leading-relaxed max-w-xl">
+                    </h1> */}
+{/* <p className="text-white text-xs md:text-xl font-medium mb-8 md:mb-12 leading-relaxed max-w-xl">
                         Engineered for growth. Strategic land parcels and world-class shed infrastructure designed for high-performance manufacturing and logistics.
-                    </p>
+                    </p> */}
 <div className="flex flex-wrap gap-2 md:gap-4">
 <button className="bg-[#ff7627] text-white px-5 py-3 md:px-10 md:py-5 rounded-2xl font-headline font-black text-[10px] md:text-sm uppercase tracking-[0.2em] hover:scale-105 hover:shadow-2xl hover:shadow-[#ff7627]/40 active:scale-95 transition-all outline outline-2 outline-[#ff7627]/20 outline-offset-4">Buy Land</button>
 <a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="bg-white/10 backdrop-blur-xl border border-white/20 text-white px-5 py-3 md:px-10 md:py-5 rounded-2xl font-headline font-black text-[10px] md:text-sm uppercase tracking-[0.2em] hover:bg-white/20 hover:scale-105 active:scale-95 transition-all flex items-center gap-3">Download Brochure <span className="material-symbols-outlined text-[16px] md:text-lg">download</span></a>
@@ -32,7 +32,7 @@ export default function Home() {
 </div>
 </section>
 
-<section className="min-h-[120px] md:h-[100px] md:min-h-[100px] mt-[10px] md:mt-[30px] flex items-center bg-white/5 dark:bg-[#002046]/40 backdrop-blur-xl relative overflow-hidden border-y border-white/5 shadow-2xl">
+<section className="min-h-[120px] md:h-[100px] md:min-h-[100px] mt-[10px] md:mt-[10px] flex items-center bg-white/5 dark:bg-[#002046]/40 backdrop-blur-xl relative overflow-hidden border-y border-white/5 shadow-2xl">
 <div className="container mx-auto px-8">
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center h-full py-4">
 <div className="flex items-center gap-4">
@@ -158,7 +158,7 @@ export default function Home() {
 <ul className="space-y-4 mb-12">
 <li className="flex items-center gap-4 text-white font-headline font-bold">
 <span className="w-2 h-2 bg-on-tertiary-container rounded-full"></span>
-                                2km from National Highway 44
+                                2km from National Highway 16 (NH-16)
                             </li>
 <li className="flex items-center gap-4 text-white font-headline font-bold">
 <span className="w-2 h-2 bg-on-tertiary-container rounded-full"></span>

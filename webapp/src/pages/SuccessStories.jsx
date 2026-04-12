@@ -18,7 +18,7 @@ export default function SuccessStories() {
                         Proven Success <br/><span className="text-[#ff7627]">Since 2017</span>
 </h1>
 <p className="text-xl text-slate-300 font-body max-w-xl leading-relaxed mb-12">
-                        Witness the growth of industry leaders who found their operational home within our world-class 300-acre ecosystem.
+                        Witness the growth of industry leaders who found their operational home within our world-class 500-acre ecosystem.
                     </p>
 </div>
 </div>
@@ -66,7 +66,7 @@ export default function SuccessStories() {
 <div className="space-y-6 mb-10">
 <div className="flex justify-between items-center py-3 border-b border-outline-variant/30">
 <span className="text-secondary font-semibold">Jobs Created</span>
-<span className="text-primary font-black text-xl">300+</span>
+<span className="text-primary font-black text-xl">500+</span>
 </div>
 <div className="flex justify-between items-center py-3 border-b border-outline-variant/30">
 <span className="text-secondary font-semibold">Production Increase</span>

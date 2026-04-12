@@ -19,12 +19,13 @@ export default function Header() {
     { name: 'Logistics', path: '/location' },
     { name: 'Success Stories', path: '/stories' },
     { name: 'About Us', path: '/about' },
+    { name: 'Contact', path: '/contact' },
   ];
 
   return (
     <>
       <header className={`fixed top-0 left-0 right-0 z-40 w-full transition-all duration-500 border-b ${isScrolled ? 'bg-white shadow-lg border-slate-200' : 'bg-white/90 backdrop-blur-md border-slate-100'}`}>
-        <nav className={`flex justify-between items-center w-full px-8 max-w-[1440px] mx-auto transition-all duration-500 ${isScrolled ? 'py-3' : 'py-5'}`}>
+        <nav className={`flex justify-between items-center w-full px-8 max-w-[1440px] mx-auto transition-all duration-500 ${isScrolled ? 'py-1' : 'py-2'}`}>
           <Link to="/" className="flex items-center gap-3 group">
             <div className="relative">
               <div className="absolute inset-0 bg-[#ff7627]/20 blur-lg rounded-full group-hover:bg-[#ff7627]/40 transition-all"></div>

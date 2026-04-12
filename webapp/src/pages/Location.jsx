@@ -69,7 +69,7 @@ export default function Location() {
 <div className="absolute top-1/4 left-1/3 p-4 bg-inverse-surface rounded-lg shadow-xl border-b-2 border-on-tertiary-container">
 <div className="flex items-center gap-2">
 <span className="material-symbols-outlined text-on-tertiary-container text-sm" data-weight="fill">location_on</span>
-<span className="text-white font-headline font-bold text-xs uppercase tracking-tighter">NH-12 Intersection</span>
+<span className="text-white font-headline font-bold text-xs uppercase tracking-tighter">NH-16 Intersection</span>
 </div>
 </div>
 <div className="absolute bottom-1/3 right-1/4 p-4 bg-inverse-surface rounded-lg shadow-xl border-b-2 border-on-tertiary-container">
