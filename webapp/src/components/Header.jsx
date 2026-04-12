@@ -23,18 +23,18 @@ export default function Header() {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 right-0 z-40 w-full transition-all duration-500 border-b ${isScrolled ? 'bg-white/80 dark:bg-[#002046]/80 backdrop-blur-xl shadow-lg border-white/10' : 'bg-white/40 dark:bg-[#002046]/40 backdrop-blur-md border-transparent'}`}>
-        <nav className={`flex justify-between items-center w-full px-8 max-w-[1440px] mx-auto transition-all duration-500 ${isScrolled ? 'py-2' : 'py-4'}`}>
+      <header className={`fixed top-0 left-0 right-0 z-40 w-full transition-all duration-500 border-b ${isScrolled ? 'bg-white shadow-lg border-slate-200' : 'bg-white/90 backdrop-blur-md border-slate-100'}`}>
+        <nav className={`flex justify-between items-center w-full px-8 max-w-[1440px] mx-auto transition-all duration-500 ${isScrolled ? 'py-3' : 'py-5'}`}>
           <Link to="/" className="flex items-center gap-3 group">
             <div className="relative">
               <div className="absolute inset-0 bg-[#ff7627]/20 blur-lg rounded-full group-hover:bg-[#ff7627]/40 transition-all"></div>
               <img 
                 src="/logo_sherpur.jpg" 
                 alt="Logo" 
-                className={`relative z-10 transition-all duration-500 object-contain rounded-lg shadow-sm ${isScrolled ? 'h-8' : 'h-11'}`} 
+                className={`relative z-10 transition-all duration-500 object-contain rounded-lg shadow-sm ${isScrolled ? 'h-9' : 'h-12'}`} 
               />
             </div>
-            <span className={`font-black text-[#002046] dark:text-white tracking-tighter transition-all duration-500 ${isScrolled ? 'text-lg' : 'text-2xl'} group-hover:text-[#ff7627]`}>
+            <span className={`font-black tracking-tighter transition-all duration-500 ${isScrolled ? 'text-lg text-[#002046]' : 'text-2xl text-[#002046] dark:text-white'} group-hover:text-[#ff7627]`}>
               SHERPUR <span className="hidden sm:inline">INDUSTRIAL PARK</span>
             </span>
           </Link>
@@ -43,18 +43,20 @@ export default function Header() {
             {navLinks.map((link) => (
               <Link 
                 key={link.name} 
-                className={`font-['Manrope'] font-bold tracking-tight uppercase transition-all duration-300 relative group ${isScrolled ? 'text-[10px]' : 'text-[11px]'} text-[#53606e] dark:text-slate-300 hover:text-[#ff7627] dark:hover:text-[#ff7627]`} 
+                className={`font-['Manrope'] font-black tracking-widest uppercase transition-all duration-300 relative group ${isScrolled ? 'text-[11px] text-[#002046]' : 'text-[12px] text-[#002046] dark:text-slate-300'} hover:text-[#ff7627] dark:hover:text-[#ff7627]`} 
                 to={link.path}
               >
                 {link.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#ff7627] transition-all group-hover:w-full"></span>
+                <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-[#ff7627] transition-all group-hover:w-full"></span>
               </Link>
             ))}
           </div>
-
-          <a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20enquiring%20about%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className={`hidden md:block bg-[#ff7627] text-white rounded-xl font-headline font-bold uppercase tracking-wider hover:scale-105 hover:shadow-xl hover:shadow-[#ff7627]/20 active:scale-95 transition-all ${isScrolled ? 'px-5 py-2 text-[10px]' : 'px-7 py-3 text-xs'}`}>
-            Enquire Now
-          </a>
+          
+          <div className="flex items-center gap-6">
+            <a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20enquiring%20about%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className={`hidden md:block bg-[#ff7627] text-white rounded-xl font-headline font-black uppercase tracking-widest shadow-lg shadow-[#ff7627]/20 hover:scale-105 active:scale-95 transition-all ${isScrolled ? 'px-6 py-3 text-[10px]' : 'px-8 py-4 text-[11px]'}`}>
+              Enquire Now
+            </a>
+          </div>
         </nav>
       </header>
 

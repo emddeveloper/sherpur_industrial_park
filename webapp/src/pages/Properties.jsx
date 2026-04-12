@@ -186,7 +186,7 @@ export default function Properties() {
                         Industrial <br/><span className="text-[#ff7627]">Portfolio</span>
                     </h1>
 <p className="text-slate-300 text-xl font-body max-w-xl leading-relaxed">
-                        Explore our audited inventory of 300 acres, featuring ready-to-build plots and Grade-A industrial sheds.
+                        Explore our audited inventory of 500 acres, featuring ready-to-build plots and Grade-A industrial sheds.
                     </p>
 </div>
 </div>

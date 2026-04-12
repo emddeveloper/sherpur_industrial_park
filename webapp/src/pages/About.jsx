@@ -15,7 +15,7 @@ export default function About() {
 <div className="max-w-4xl">
 <span className="inline-block px-5 py-2 bg-white/5 backdrop-blur-md border border-white/10 text-white text-[10px] font-black tracking-[0.3em] uppercase mb-8 rounded-full">Engineering Excellence</span>
 <h1 className="text-white font-headline font-extrabold text-5xl md:text-8xl tracking-tighter leading-[0.9] mb-12 italic uppercase">
-                        300 ACRES OF <br/>
+                        500 ACRES OF <br/>
 <span className="text-[#ff7627]">ENGINEERED FUTURE.</span>
 </h1>
 <p className="text-slate-300 font-body text-xl leading-relaxed max-w-xl">

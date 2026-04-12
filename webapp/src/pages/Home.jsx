@@ -38,7 +38,7 @@ export default function Home() {
 <div className="flex items-center gap-4">
 <span className="material-symbols-outlined text-primary text-2xl">architecture</span>
 <div>
-<h3 className="font-headline text-lg font-black text-primary leading-none">300 Acres</h3>
+<h3 className="font-headline text-lg font-black text-primary leading-none">500 acres</h3>
 <p className="text-secondary font-bold uppercase tracking-widest text-[8px] mt-1">Established 2017</p>
 </div>
 </div>
@@ -69,7 +69,7 @@ export default function Home() {
 
 <section className="py-10 md:py-24 bg-surface-container-low blueprint-grid">
 <div className="container mx-auto px-8">
-<div className="flex flex-col md:items-end mb-16 gap-4">
+<div className="flex flex-col md:items-start mb-16 gap-4">
 <div className="text-left md:text-right">
 <h4 className="text-on-tertiary-container font-headline text-xs font-bold tracking-[0.3em] uppercase mb-4">Inventory Available</h4>
 <h2 className="text-primary font-headline text-4xl md:text-5xl font-extrabold tracking-tighter">Strategic Assets</h2>

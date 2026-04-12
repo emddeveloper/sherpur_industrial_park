@@ -11,8 +11,11 @@ export default function Footer() {
                 </div>
 <p className="font-['Inter'] text-xs font-medium tracking-widest uppercase text-[#53606e] dark:text-slate-400 leading-relaxed">
                     © 2026 SHERPUR INDUSTRIAL PARK. PRECISION ENGINEERED INFRASTRUCTURE.
-                </p>
-</div>
+                    </p>
+                    <p className="font-['Inter'] text-[9px] font-bold tracking-[0.2em] uppercase text-[#53606e]/60 dark:text-slate-500 mt-2">
+                        Designed & Maintained by <a href="https://saypinfotech.com" target="_blank" rel="noopener noreferrer" className="text-[#ff7627] hover:underline">SAYP INFOTECH</a>
+                    </p>
+                </div>
 <div className="flex flex-wrap gap-x-12 gap-y-6">
 <div className="flex flex-col gap-4">
 <span className="font-['Inter'] text-xs font-black tracking-widest uppercase text-[#002046] dark:text-white">Legal</span>
