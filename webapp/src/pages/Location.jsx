@@ -47,8 +47,8 @@ export default function Location() {
 <div className="flex gap-4 items-start p-4 bg-surface-container-low rounded-xl border-l-4 border-on-tertiary-container">
 <span className="material-symbols-outlined text-primary text-3xl">road</span>
 <div>
-<h4 className="font-headline font-bold text-primary uppercase text-sm tracking-wider">NH-12 Access</h4>
-<p className="text-secondary text-sm">Direct private interchange connecting to the National Highway-12 within 2km.</p>
+<h4 className="font-headline font-bold text-primary uppercase text-sm tracking-wider">NH-16 Access</h4>
+<p className="text-secondary text-sm">Direct private interchange connecting to the National Highway-16 at Ranihati within 6km.</p>
 </div>
 </div>
 <div className="flex gap-4 items-start p-4 bg-surface-container-low rounded-xl">
@@ -163,35 +163,35 @@ export default function Location() {
 </thead>
 <tbody className="font-body text-on-surface">
 <tr className="bg-surface hover:bg-surface-container-low transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Sherpur Junction Rail Terminal</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">2.4 km</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">08 min</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Ranihati Crossing (NH-16)</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">06 KM</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">12 min</td>
 <td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Dedicated Express</span>
+<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Transit Node</span>
 </td>
 </tr>
 <tr className="bg-surface-container-low hover:bg-surface-container transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">NH-12 Interchange (North)</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">1.8 km</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">05 min</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Kolkata Port Terminal</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">35 KM</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">55 min</td>
 <td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Multi-Lane Highway</span>
+<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Gateway</span>
 </td>
 </tr>
 <tr className="bg-surface hover:bg-surface-container-low transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Regional Inland Port Terminal</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">12.5 km</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">22 min</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Haldia Deep Sea Port</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">90 KM</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">140 min</td>
 <td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Heavy Load Optimized</span>
+<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">International Shipping</span>
 </td>
 </tr>
 <tr className="bg-surface-container-low hover:bg-surface-container transition-colors">
-<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Central Business District (City Center)</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">18.0 km</td>
-<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">35 min</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 font-bold">Kharagpur Logistics Hub</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center font-medium">95 KM</td>
+<td className="py-6 px-4 border-b border-outline-variant/20 text-center text-on-tertiary-container font-bold">120 min</td>
 <td className="py-6 px-4 border-b border-outline-variant/20 text-right">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Urban Transit Line</span>
+<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase">Manufacturing Hub</span>
 </td>
 </tr>
 </tbody>

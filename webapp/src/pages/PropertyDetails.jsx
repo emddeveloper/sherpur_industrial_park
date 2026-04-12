@@ -354,9 +354,9 @@ export default function PropertyDetails() {
                                     WhatsApp Chat
                                 </a>
                                 <div className="pt-4 border-t border-outline-variant/30">
-                                    <Link to="/contact" className="block w-full text-center bg-on-tertiary-container py-4 rounded text-xs font-black uppercase tracking-widest text-white shadow-lg shadow-on-tertiary-container/20 hover:translate-y-[-2px] transition-transform">
+                                    <a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-on-tertiary-container py-4 rounded text-xs font-black uppercase tracking-widest text-white shadow-lg shadow-on-tertiary-container/20 hover:translate-y-[-2px] transition-transform">
                                         Schedule Site Visit
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

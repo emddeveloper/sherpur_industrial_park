@@ -6,26 +6,27 @@ export default function Home() {
         <main>
             
 
-<section className="relative min-h-[921px] flex items-center overflow-hidden">
+<section className="relative min-h-[260px] md:min-h-[921px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img className="w-full h-full object-cover" data-alt="expansive cinematic aerial view of a massive modern industrial park with high-tech logistics warehouses and solar panel roofs under golden sunlight" src="/hero1.png" />
-<div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent"></div>
+  <img className="w-full h-full object-cover hidden md:block" data-alt="expansive cinematic aerial view of a massive modern industrial park with high-tech logistics warehouses and solar panel roofs under golden sunlight" src="/hero1.png" />
+  <img className="w-full h-full object-cover block md:hidden" data-alt="ground level shot of industrial infrastructure for mobile devices" src="/hero2.jpg" />
+  <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent"></div>
 </div>
-<div className="container mx-auto px-8 relative z-10">
+<div className="container mx-auto px-8 relative z-10 py-12 md:py-0">
 <div className="max-w-3xl">
-<span className="inline-block px-3 py-1 bg-on-tertiary-container text-white font-headline text-xs font-extrabold tracking-[0.2em] uppercase mb-6 rounded">The Precision Hub</span>
-<h1 className="text-white font-headline text-5xl md:text-7xl font-extrabold leading-[1.1] mb-8 tracking-tighter">
+<span className="inline-block px-3 py-1 bg-on-tertiary-container text-white font-headline text-[10px] md:text-xs font-extrabold tracking-[0.2em] uppercase mb-4 md:mb-6 rounded">The Precision Hub</span>
+<h1 className="text-white font-headline text-3xl md:text-7xl font-extrabold leading-[1.1] mb-4 md:mb-8 tracking-tighter">
                         Build Your Industry in a Secure <span className="text-on-tertiary-container">500 Acre</span> Industrial Hub
                     </h1>
-<p className="text-on-primary-container text-lg md:text-xl font-medium mb-12 leading-relaxed max-w-xl">
+<p className="text-white text-xs md:text-xl font-medium mb-8 md:mb-12 leading-relaxed max-w-xl">
                         Engineered for growth. Strategic land parcels and world-class shed infrastructure designed for high-performance manufacturing and logistics.
                     </p>
-<div className="flex flex-wrap gap-4">
-<button className="bg-on-tertiary-container text-white px-8 py-4 rounded-lg font-headline font-extrabold text-sm uppercase tracking-widest hover:translate-y-[-2px] transition-all shadow-xl shadow-on-tertiary-container/20">Buy Land</button>
-<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-lg font-headline font-extrabold text-sm uppercase tracking-widest hover:bg-white hover:text-primary transition-all flex items-center gap-2">Download Brochure <span className="material-symbols-outlined text-sm">download</span></a>
-<button className="text-white px-8 py-4 font-headline font-extrabold text-sm uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
-                            Book Site Visit <span className="material-symbols-outlined">arrow_forward</span>
-</button>
+<div className="flex flex-wrap gap-2 md:gap-4">
+<button className="bg-on-tertiary-container text-white px-4 py-2 md:px-8 md:py-4 rounded-lg font-headline font-extrabold text-[10px] md:text-sm uppercase tracking-widest hover:translate-y-[-2px] transition-all shadow-xl shadow-on-tertiary-container/20">Buy Land</button>
+<a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-4 py-2 md:px-8 md:py-4 rounded-lg font-headline font-extrabold text-[10px] md:text-sm uppercase tracking-widest hover:bg-white hover:text-primary transition-all flex items-center gap-2">Download Brochure <span className="material-symbols-outlined text-[14px] md:text-sm">download</span></a>
+<a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="text-white px-4 py-2 md:px-8 md:py-4 font-headline font-extrabold text-[10px] md:text-sm uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
+                            Book Site Visit <span className="material-symbols-outlined text-[14px] md:text-sm">arrow_forward</span>
+</a>
 </div>
 </div>
 </div>
@@ -37,8 +38,8 @@ export default function Home() {
 <div className="flex items-center gap-4">
 <span className="material-symbols-outlined text-primary text-2xl">architecture</span>
 <div>
-<h3 className="font-headline text-lg font-black text-primary leading-none">500 Acres</h3>
-<p className="text-secondary font-bold uppercase tracking-widest text-[8px] mt-1">Total Land Bank</p>
+<h3 className="font-headline text-lg font-black text-primary leading-none">300 Acres</h3>
+<p className="text-secondary font-bold uppercase tracking-widest text-[8px] mt-1">Established 2017</p>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -66,7 +67,7 @@ export default function Home() {
 </div>
 </section>
 
-<section className="py-24 bg-surface-container-low blueprint-grid">
+<section className="py-10 md:py-24 bg-surface-container-low blueprint-grid">
 <div className="container mx-auto px-8">
 <div className="flex flex-col md:items-end mb-16 gap-4">
 <div className="text-left md:text-right">
@@ -190,6 +191,84 @@ export default function Home() {
 <div className="flex items-center justify-center font-headline font-black text-xl text-primary tracking-tighter">GLOBAL_PRO</div>
 <div className="flex items-center justify-center font-headline font-black text-xl text-primary tracking-tighter italic">INFRA_BLUE</div>
 <div className="flex items-center justify-center font-headline font-black text-xl text-primary tracking-tighter">M_FABRICS</div>
+</div>
+</div>
+</section>
+
+<section className="py-24 bg-surface relative overflow-hidden">
+<div className="container mx-auto px-8">
+<div className="max-w-4xl mb-20">
+<h4 className="text-on-tertiary-container font-headline text-xs font-bold tracking-[0.3em] uppercase mb-4">Prime Accessibility</h4>
+<h2 className="text-primary font-headline text-4xl md:text-6xl font-extrabold tracking-tighter mb-8 italic">Strategic Marketplace Connectivity</h2>
+<p className="text-secondary text-lg font-medium leading-relaxed">Located in Amta, SIP offers unrivaled access to the Eastern Dedicated Freight Corridor and National Highway 16.</p>
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div className="space-y-8">
+<div className="pb-8 border-b border-outline-variant/30">
+<h5 className="font-headline font-black text-primary text-2xl mb-2 italic">Trade Ports</h5>
+<div className="space-y-4">
+<div className="flex justify-between items-center text-secondary">
+<span className="font-bold">Kolkata Port</span>
+<span className="text-primary font-black">35 KM</span>
+</div>
+<div className="flex justify-between items-center text-secondary">
+<span className="font-bold">Haldia Port</span>
+<span className="text-primary font-black">90 KM</span>
+</div>
+</div>
+</div>
+<div className="pb-8 border-b border-outline-variant/30">
+<h5 className="font-headline font-black text-primary text-2xl mb-2 italic">Logistics Hubs</h5>
+<div className="space-y-4">
+<div className="flex justify-between items-center text-secondary">
+<span className="font-bold">Dhulagarh Toll</span>
+<span className="text-primary font-black">16 KM</span>
+</div>
+<div className="flex justify-between items-center text-secondary">
+<span className="font-bold">Ranihati Crossing</span>
+<span className="text-primary font-black">06 KM</span>
+</div>
+</div>
+</div>
+</div>
+
+<div className="md:col-span-2 bg-surface-container-low rounded-3xl p-12 border border-outline-variant/10 relative group overflow-hidden">
+<img src="/featureImages21.jpg" className="absolute inset-0 w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-700" alt="bg" />
+<div className="relative z-10">
+<h3 className="font-headline text-3xl font-black text-primary mb-8 italic">Plug-and-Play Infrastructure</h3>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div className="flex gap-4">
+<span className="material-symbols-outlined text-on-tertiary-container">bolt</span>
+<div>
+<p className="font-bold text-primary uppercase text-xs mb-1">Grid Power</p>
+<p className="text-secondary text-sm">Dedicated 33/11 KV Internal Substation Grid.</p>
+</div>
+</div>
+<div className="flex gap-4">
+<span className="material-symbols-outlined text-on-tertiary-container">scale</span>
+<div>
+<p className="font-bold text-primary uppercase text-xs mb-1">Heavy Logistics</p>
+<p className="text-secondary text-sm">On-site 100 MT Weigh Bridge for cargo efficiency.</p>
+</div>
+</div>
+<div className="flex gap-4">
+<span className="material-symbols-outlined text-on-tertiary-container">add_road</span>
+<div>
+<p className="font-bold text-primary uppercase text-xs mb-1">Apex Roads</p>
+<p className="text-secondary text-sm">50ft wide main entrance with 45ft wide internal roads.</p>
+</div>
+</div>
+<div className="flex gap-4">
+<span className="material-symbols-outlined text-on-tertiary-container">verified</span>
+<div>
+<p className="font-bold text-primary uppercase text-xs mb-1">Compliance</p>
+<p className="text-secondary text-sm">Panchayat NOC, Trade License & HR support.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </section>

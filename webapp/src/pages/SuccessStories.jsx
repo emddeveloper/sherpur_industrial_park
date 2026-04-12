@@ -135,9 +135,9 @@ export default function SuccessStories() {
 <p className="text-on-primary-container text-xl leading-relaxed max-w-2xl font-medium">Join the growing ecosystem of industrial excellence. Flexible leasing options and world-class facilities are ready for your next phase of growth.</p>
 </div>
 <div className="flex flex-col sm:flex-row gap-6 w-full lg:w-auto">
-<button className="bg-on-tertiary-container text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
-                                Book a Tour
-                            </button>
+<a href="https://wa.me/919831177236?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20site%20visit%20at%20Sherpur%20Industrial%20Park." target="_blank" rel="noopener noreferrer" className="bg-on-tertiary-container text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-center">
+                                 Book a Tour
+                             </a>
 <a href="/docs/Sherpur Industrial Park Brochure.pdf" download="Sherpur Industrial Park Brochure.pdf" className="border-2 border-white/20 text-white px-12 py-5 rounded-lg font-headline font-bold text-lg uppercase tracking-wide hover:bg-white/10 transition-all duration-300 inline-flex items-center gap-3">
                                 Download Brochure <span className="material-symbols-outlined">download</span>
                             </a>

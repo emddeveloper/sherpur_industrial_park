@@ -15,7 +15,7 @@ export default function About() {
 <div className="lg:col-span-8">
 <span className="inline-block px-4 py-1 bg-on-tertiary-container text-white text-xs font-bold tracking-widest uppercase mb-6">Established Vision</span>
 <h1 className="text-white font-headline font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tighter leading-[0.9] mb-8">
-                        500 ACRES OF <br/>
+                        300 ACRES OF <br/>
 <span className="text-on-primary-container">ENGINEERED FUTURE.</span>
 </h1>
 </div>
@@ -68,7 +68,7 @@ export default function About() {
 <span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6 block group-hover:text-white transition-colors" data-icon="alt_route">alt_route</span>
 <h3 className="font-headline font-bold text-xl text-primary mb-4 group-hover:text-white">Roads</h3>
 <p className="text-secondary font-body text-sm leading-relaxed group-hover:text-on-primary-container">
-                            40m wide primary arterial roads and 25m internal lanes designed for heavy multi-axle freight movement and long-term durability.
+                            50ft wide primary main entrance and 45ft wide internal arterial roads designed for peak multi-axle freight movement.
                         </p>
 </div>
 
@@ -76,7 +76,7 @@ export default function About() {
 <span className="material-symbols-outlined text-on-tertiary-container text-4xl mb-6 block group-hover:text-white transition-colors" data-icon="bolt">bolt</span>
 <h3 className="font-headline font-bold text-xl text-primary mb-4 group-hover:text-white">Electricity</h3>
 <p className="text-secondary font-body text-sm leading-relaxed group-hover:text-on-primary-container">
-                            Dedicated 132/33KV substation with dual-source power feed to ensure uninterrupted manufacturing processes 24/7.
+                            Dedicated 33/11 KV internal substation grid with 24/7 power monitoring ensuring uninterrupted industrial cycles.
                         </p>
 </div>
 
